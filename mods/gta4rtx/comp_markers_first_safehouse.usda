@@ -7,7 +7,9 @@ over "RootNode"
 {
     over "meshes"
     {
-        over "mesh_83F5F10943D2CC47"
+        over "mesh_83F5F10943D2CC47" (
+            references = None
+        )
         {
             def Xform "ref_ab8e6faea6224cfaa0c477109c2bea17" (
                 prepend references = @./assets/props/xor/Xoxor.usda@
@@ -26,6 +28,17 @@ over "RootNode"
                     double3 xformOp:translate = (-5.157810307213595, -1.2039943726441038, -0.04616546630859375)
                     uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
                 }
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_0000000067001D60"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 0
             }
         }
     }
