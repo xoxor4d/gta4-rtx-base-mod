@@ -15,6 +15,7 @@ patreon.com/xoxor4d"""
     subLayers = [
         @./hq_world.usda@,
         @./hq_props.usda@,
+        @./vegetation.usda@,
         @./comp_world.usda@,
         @./comp_props.usda@,
         @./comp_water.usda@,

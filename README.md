@@ -12,6 +12,14 @@ It handles:
 - Makes water look like water
 - Makes a lot of glass translucent
 - Various mesh fixes
+- Vegetation by Budgie (Trees, Bushes ..) - wip
+
+<br>
+
+##  Credits
+- InstaMat
+- [Budgie](https://www.patreon.com/BudgieGames) (Vegetation) - [Patreon Post](https://www.patreon.com/posts/side-project-rtx-149926332)
+- All 🍓 Testers
 
 <br>
 
