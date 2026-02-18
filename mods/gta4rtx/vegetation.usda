@@ -752,11 +752,11 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/BeechTree_Thin_Color.a.rtex.dds@
-                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/BeechTree_Thin_OTH_Normal.n.rtex.dds@
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/BeechTree_Thin_Roughness.r.rtex.dds@
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/BeechTree_Thin02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/BeechTree_Thin02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/BeechTree_Thin02_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/BeechTree_Thin_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/BeechTree_Thin02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.10000002, 0.50694984, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                 }
