@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (-186.7632599997701, 669.6015697415327, 15.617806128731374)
-                double3 target = (178.1716016929278, 220.5012166421625, -365.92460569164354)
+                double3 position = (495.8394620678475, 1361.9027955784707, 13.006732828642631)
+                double3 target = (-527.5402905979169, 643.8960987234727, -726.5268716442781)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -22,9 +22,9 @@
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./vegetation.usda"
+            string authoring_layer = "./hq_liberty_kaba_meshes.usda"
             dictionary locked = {
-                bool "./deps/captures/06__veget_bush.usd" = 1
+                bool "./deps/captures/0__pylon_blocker.usd" = 1
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
@@ -41,7 +41,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/06__veget_bush.usd@
+        @./deps/captures/0__pylon_blocker.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"

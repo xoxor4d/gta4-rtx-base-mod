@@ -6,7 +6,7 @@ This is an actual __remix__ mod for GTAIV. It is meant as a base for the [GTAIV 
 
 <img width="1905" height="1066" alt="Screenshot 2025-12-28 212610" src="https://github.com/user-attachments/assets/b3ec16f5-6134-41b6-83a9-128521f41a7f" />
 
-<img width="2422" height="1033" alt="Screenshot 2026-02-10 220956" src="https://github.com/user-attachments/assets/f97f40df-f2a9-4ad7-a063-2b1fbf5e83fc" />
+
 
 <br>
 <br>
@@ -20,13 +20,15 @@ This is an actual __remix__ mod for GTAIV. It is meant as a base for the [GTAIV 
 - Makes a lot of glass translucent
 - Various mesh fixes
 - Vegetation by Budgie (Trees, Bushes ..) - wip
+- Roadside meshes, cobblestone road texture by Kaba - wip
 
 <br>
 
 ##  Credits
 - InstaMat
 - [Budgie](https://www.patreon.com/BudgieGames) (Vegetation) - [Patreon Post](https://www.patreon.com/posts/side-project-rtx-149926332)
-- [Danlopand / Thundery_Dan](https://github.com/DANLOPAND)
+- [Danlopand / Thundery_Dan](https://github.com/DANLOPAND) (Various fixes)
+- Kaba [Insta](https://www.instagram.com/yourfavoritesoberalien/) - [TikTok](https://www.tiktok.com/@yourfavoritesoberalien) (Roadside Meshes and some road textures - wip)
 - All 🍓 Testers
 
 <br>
@@ -75,5 +77,15 @@ Use the installer that comes with the Compatibility Mod _OR_ install manually:
 
 <br>
 
+## Budgie
+
+<img width="2422" height="1033" alt="Screenshot 2026-02-10 220956" src="https://github.com/user-attachments/assets/f97f40df-f2a9-4ad7-a063-2b1fbf5e83fc" />
 <img width="2339" height="1019" alt="Screenshot 2026-02-10 220655" src="https://github.com/user-attachments/assets/b5e01d1a-af6e-4101-9896-052fc7c83b36" />
 
+<br>
+
+## Kaba
+![](img/kaba01.jpg)
+![](img/kaba02.jpg)
+![](img/kaba03.jpg)
+![](img/kaba04.jpg)

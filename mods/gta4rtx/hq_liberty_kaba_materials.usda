@@ -1,0 +1,85 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_A6AAACBA979BA682"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/A6AAACBA979BA682/A6AAACBA979BA682_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.01
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/A6AAACBA979BA682/A6AAACBA979BA682_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/A6AAACBA979BA682/A6AAACBA979BA682_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/A6AAACBA979BA682/A6AAACBA979BA682_Height.h.rtex.dds@
+            }
+        }
+
+        over "mat_F4A219D85D6867EE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.01
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Height.h.rtex.dds@
+                custom asset inputs:metallic_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Metallic.m.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_A0212F4D18477DDD"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.01
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Height.h.rtex.dds@
+                custom asset inputs:metallic_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Metallic.m.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/F4A219D85D6867EE/F4A219D85D6867EE_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_FE5E8434FF33D279"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/FE5E8434FF33D279/FE5E8434FF33D279_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.004
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/FE5E8434FF33D279/FE5E8434FF33D279_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/FE5E8434FF33D279/FE5E8434FF33D279_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/FE5E8434FF33D279/FE5E8434FF33D279_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_28D00F73059FB1F7"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/28D00F73059FB1F7_dirty/28D00F73059FB1F7_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.01
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/28D00F73059FB1F7_dirty/28D00F73059FB1F7_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/28D00F73059FB1F7_dirty/28D00F73059FB1F7_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/28D00F73059FB1F7_dirty/28D00F73059FB1F7_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_49B082DE4F1A0F38"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/_liberty/kaba/49B082DE4F1A0F38/49B082DE4F1A0F38_Base_color.a.rtex.dds@
+                custom float inputs:displace_in = 0.05
+                custom asset inputs:height_texture = @./assets/_liberty/kaba/49B082DE4F1A0F38/49B082DE4F1A0F38_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/_liberty/kaba/49B082DE4F1A0F38/49B082DE4F1A0F38_Normal_DirectX_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/_liberty/kaba/49B082DE4F1A0F38/49B082DE4F1A0F38_Roughness.r.rtex.dds@
+            }
+        }
+    }
+}
+

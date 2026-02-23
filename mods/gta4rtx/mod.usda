@@ -13,6 +13,7 @@ patreon.com/xoxor4d"""
     endTimeCode = 1
     startTimeCode = 0
     subLayers = [
+        @./hq_liberty.usda@,
         @./hq_world.usda@,
         @./hq_props.usda@,
         @./vegetation.usda@,

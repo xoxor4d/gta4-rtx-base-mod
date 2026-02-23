@@ -1,0 +1,179 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_2250E809DF14B34B" (
+            references = None
+        )
+        {
+            def Xform "ref_1be5035075dc45339ebeaf0d86183f17" (
+                prepend references = @./assets/_liberty/kaba/meshes/Hydrant/mesh_2250E809DF14B34B.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 135.44635)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Hydrant"
+                        {
+                            float3 xformOp:rotateXYZ = (-90.000015, -0, 0)
+                            float3 xformOp:scale = (100, 100, 100)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_EB0949730C65CC53" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_64A1EC9CE2C604BE" (
+            references = None
+        )
+        {
+            def Xform "ref_be566170e5bd4d898d96baa6501613a9" (
+                prepend references = @./assets/_liberty/kaba/meshes/TrafficStuff/mesh_64A1EC9CE2C604BE.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-0.01491544457985583, -0.016713935589621087, -0.7487554437436685)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "BarrelCap_Low"
+                        {
+                            over "Circle_006"
+                            {
+                                float3 xformOp:rotateXYZ = (0, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (-0.01827093808515201, -0.012180659508203462, -0.0030851642270306456)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_EC3FD66651201705" (
+            references = None
+        )
+        {
+            def Xform "ref_5ead8210d59b428490c80c1ef296ed3c" (
+                prepend references = @./assets/_liberty/kaba/meshes/TrafficStuff/mesh_EC3FD66651201705.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.01, 0.01, 0.01)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Barrel_Low"
+                        {
+                            float3 xformOp:rotateXYZ = (0, -0, 0)
+                            float3 xformOp:scale = (100, 100, 100)
+                            double3 xformOp:translate = (0, 0, 0)
+                            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_8266669AD176BD78" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_B7A2B7748230D4DF" (
+            references = None
+        )
+        {
+            def Xform "ref_34d5b60959524860a453436cce0ddefc" (
+                prepend references = @./assets/_liberty/kaba/meshes/TrafficStuff/mesh_B7A2B7748230D4DF.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_90020E6E0DCC2080" (
+            references = None
+        )
+        {
+            def Xform "ref_a39eef2dc0c24d31a723d3fbc4c1a47c" (
+                prepend references = @./assets/_liberty/kaba/meshes/TrafficStuff/mesh_90020E6E0DCC2080.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+    }
+}
+
