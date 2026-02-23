@@ -26,6 +26,7 @@ This is an actual __remix__ mod for GTAIV. It is meant as a base for the [GTAIV 
 ##  Credits
 - InstaMat
 - [Budgie](https://www.patreon.com/BudgieGames) (Vegetation) - [Patreon Post](https://www.patreon.com/posts/side-project-rtx-149926332)
+- [Danlopand / Thundery_Dan](https://github.com/DANLOPAND)
 - All 🍓 Testers
 
 <br>
