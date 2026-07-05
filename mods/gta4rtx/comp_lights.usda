@@ -224,6 +224,76 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
+
+        
+        over "mesh_63EC82C3070AEA3F" (
+            references = None
+        )
+        {
+            def Xform "ref_9a60ba3f81a84272982e9b5f676aa112" (
+                prepend references = @./assets/lights/subwayLightGrid.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "root"
+                    {
+                        over "_materials"
+                        {
+                            over "subway_metal_grid"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/lights/textures/C7E4B0876B156378.a.rtex.dds@
+                                    float inputs:metallic_constant = 0.5
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_113AEBD22E8F659E" (
+            references = None
+        )
+        {
+            def Xform "ref_a15c424f68f9465d953f6f43970e7ad2" (
+                prepend references = @./assets/lights/subwayLightGrid.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "root"
+                    {
+                        over "_materials"
+                        {
+                            over "subway_metal_grid"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/lights/textures/C7E4B0876B156378.a.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     over "lights"
