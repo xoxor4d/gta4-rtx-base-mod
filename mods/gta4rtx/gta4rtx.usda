@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (1286.2214784565467, 1737.8334675549243, 18.400647605577795)
-                double3 target = (316.56111159338417, 3604.007191403742, -426.36192319665975)
+                double3 position = (1061.8695068359373, 398.3642578125, 29.36479949951172)
+                double3 target = (2077.2140690672823, 548.9740414631996, -453.86944588886666)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -22,10 +22,10 @@
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./hq_props_chainlink.usda"
+            string authoring_layer = "./hq_props_vegetation.usda"
             dictionary locked = {
-                bool "./deps/captures/0000_miss_fence06.usd" = 1
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
+                bool "./deps/captures/333_small_foliage__4.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
                 bool "./deps/captures/capture02_small.usd" = 1
@@ -41,7 +41,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/0000_miss_fence06.usd@
+        @./deps/captures/333_small_foliage__4.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
@@ -433,6 +433,9 @@ def Scope "CustomTags" (
         </RootNode/meshes/mesh_3044634F5513B878>,
         </RootNode/meshes/mesh_6F012BCAB3B3CD44>,
         </RootNode/meshes/mesh_70FE7F5E3612B000>,
+        </RootNode/meshes/mesh_4CFBDAB7B4B97B95>,
+        </RootNode/meshes/mesh_6EC3E0777E60FC8F>,
+        </RootNode/meshes/mesh_90ACC61621C69EEE>,
     ]
     uniform token collection:marker:expansionRule = "explicitOnly"
     prepend rel collection:marker:includes = [
@@ -455,6 +458,22 @@ def Scope "CustomTags" (
         </RootNode/meshes/mesh_700691BC5DDFDD44>,
         </RootNode/meshes/mesh_D1AF8A0E33550DB3>,
         </RootNode/meshes/mesh_BA2F45E5F5F0E2FA>,
+        </RootNode/meshes/mesh_CFE390CDCBDBAC62>,
+        </RootNode/meshes/mesh_CE166A8096BCFA87>,
+        </RootNode/meshes/mesh_253636A1AF5346A7>,
     ]
+}
+
+def "ProjectSettings"
+{
+    def "Viewport"
+    {
+        def "CameraClippingOverride"
+        {
+            bool enabled = 1
+            float farClip = 10000
+            float nearClip = 0.01
+        }
+    }
 }
 

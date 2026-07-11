@@ -56,30 +56,6 @@ over "RootNode"
                 }
             }
         }
-
-        over "mesh_700691BC5DDFDD44" (
-            references = None
-        )
-        {
-            def Xform "ref_e80e376e877c4b1ea645bb2d24d73dfe" (
-                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group08.usda@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 0)
-                    float3 xformOp:scale = (1, 1, 1)
-                    double3 xformOp:translate = (0, 0, 0)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-                }
-            }
-        }
     }
 }
 

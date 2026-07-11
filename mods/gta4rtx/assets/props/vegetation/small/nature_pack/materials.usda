@@ -83,6 +83,33 @@ def Scope "Looks"
         }
     }
 
+    def Material "plants_atlas_2_dry"
+    {
+        token outputs:mdl:surface.connect = </Looks/plants_atlas_2_dry/Shader.outputs:out>
+
+        def Shader "Shader"
+        {
+            uniform token info:implementationSource = "sourceAsset"
+            uniform asset info:mdl:sourceAsset = @AperturePBR_Opacity.mdl@
+            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
+
+            color3f inputs:diffuse_color_constant = (0.0, 0.0, 0.0)
+            asset inputs:diffuse_texture = @./tex/plants_2_atlas_dry_color.a.rtex.dds@
+            asset inputs:normalmap_texture = @./tex/plants_2_atlas_normal_OTH_Normal.n.rtex.dds@
+            custom asset inputs:reflectionroughness_texture = @./tex/plants_2_atlas_roughness.r.rtex.dds@
+            custom float inputs:subsurface_measurement_distance = 0.75
+            custom asset inputs:subsurface_single_scattering_texture = @./tex/plants_2_atlas_dry_color.a.rtex.dds@
+            custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
+            custom float inputs:subsurface_volumetric_anisotropy = -0.1
+            custom bool inputs:use_legacy_alpha_state = 0
+            custom bool inputs:enable_emission = 0
+
+            token outputs:out (
+                renderType = "material"
+            )
+        }
+    }
+
     def Material "plants_atlas_6_material"
     {
         token outputs:mdl:surface.connect = </Looks/plants_atlas_6_material/Shader.outputs:out>
@@ -99,6 +126,33 @@ def Scope "Looks"
             custom asset inputs:reflectionroughness_texture = @./tex/plants_6_atlas_roughness.r.rtex.dds@
             custom float inputs:subsurface_measurement_distance = 0.75
             custom asset inputs:subsurface_single_scattering_texture = @./tex/plants_6_atlas_ color.a.rtex.dds@
+            custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
+            custom float inputs:subsurface_volumetric_anisotropy = -0.1
+            custom bool inputs:use_legacy_alpha_state = 0
+            custom bool inputs:enable_emission = 0
+            
+            token outputs:out (
+                renderType = "material"
+            )
+        }
+    }
+
+    def Material "plants_atlas_6_dry"
+    {
+        token outputs:mdl:surface.connect = </Looks/plants_atlas_6_dry/Shader.outputs:out>
+
+        def Shader "Shader"
+        {
+            uniform token info:implementationSource = "sourceAsset"
+            uniform asset info:mdl:sourceAsset = @AperturePBR_Opacity.mdl@
+            uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
+
+            color3f inputs:diffuse_color_constant = (0.0, 0.0, 0.0)
+            asset inputs:diffuse_texture = @./tex/plants_6_atlas_dry_color.a.rtex.dds@
+            asset inputs:normalmap_texture = @./tex/plants_6_atlas_normal_OTH_Normal.n.rtex.dds@
+            custom asset inputs:reflectionroughness_texture = @./tex/plants_6_atlas_roughness.r.rtex.dds@
+            custom float inputs:subsurface_measurement_distance = 0.75
+            custom asset inputs:subsurface_single_scattering_texture = @./tex/plants_6_atlas_dry_color.a.rtex.dds@
             custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
             custom float inputs:subsurface_volumetric_anisotropy = -0.1
             custom bool inputs:use_legacy_alpha_state = 0

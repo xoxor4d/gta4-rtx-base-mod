@@ -2353,6 +2353,237 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_4CFBDAB7B4B97B95" (
+            references = None
+        )
+        {
+            def Xform "ref_c76139609f7440688823cf3cf6b5c7c9" (
+                prepend references = @./assets/props/chainlink/01/fence_28_dual_damaged_bend.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-0.002869279846891004, -0.020482633266272643, 0.00002218545284904394)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_90ACC61621C69EEE" (
+            references = None
+        )
+        {
+            def Xform "ref_ebc52b6a39f04de3a952e4f96bf0f557" (
+                prepend references = @./assets/props/chainlink/01/half_height_2pc_dmg.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_6EC3E0777E60FC8F" (
+            references = None
+        )
+        {
+            def Xform "ref_ff89725827254e259a7133c77d0ad947" (
+                prepend references = @./assets/props/chainlink/01/half_height_4pc_single.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "ref_d510692c8dcc4961bb3a2423960fa045" (
+                prepend references = @./assets/props/chainlink/01/half_height_4pc_single.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-1.112827977262242, -0.002347464711192515, 0.006388744726130824)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "ref_651b9b1850a945d88e023545c812764f" (
+                prepend references = @./assets/props/chainlink/01/half_height_4pc_single.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-2.3208701321332796, -0.004649877154179194, 0.0027088370029311193)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "ref_87c52cab97af4132a2729bde5c4e2906" (
+                prepend references = @./assets/props/chainlink/01/half_height_4pc_single.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (1.2120091982517351, -0.0005987357656067616, 0.005332939693559524)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "chainlink_light"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_albedo.a.rtex.dds@
+                                    custom asset inputs:metallic_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_metalness.m.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     over "cameras"
