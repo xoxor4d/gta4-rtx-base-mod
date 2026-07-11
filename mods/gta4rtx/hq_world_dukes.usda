@@ -1,0 +1,37 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_06951C11425D7729"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/walls/stone01/walls_stone01_albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.025
+                custom float inputs:displace_out = 0.01
+                custom asset inputs:height_texture = @./assets/wtex/walls/stone01/walls_stone01_height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/walls/stone01/walls_stone01_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/walls/stone01/walls_stone01_roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_B05E66FBA92A9CFE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/B05E66FBA92A9CFE/bB05E66F_albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.015
+                custom float inputs:displace_out = 0
+                custom asset inputs:height_texture = @./assets/wtex/buildings/B05E66FBA92A9CFE/bB05E66F_height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/B05E66FBA92A9CFE/bB05E66F_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/B05E66FBA92A9CFE/bB05E66F_roughness.r.rtex.dds@
+            }
+        }
+    }
+}
+

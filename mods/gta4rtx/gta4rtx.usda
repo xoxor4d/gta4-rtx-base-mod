@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (920.200204193577, -82.92186495677521, 30.20383766950314)
-                double3 target = (414.70470599633643, 728.3008044493536, 45.80640142908415)
+                double3 position = (1225.3543361977222, 706.7556178134383, 38.43757267466611)
+                double3 target = (2058.1615560520286, -1609.6133779367442, -95.26167752253656)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -22,10 +22,10 @@
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./hq_props_vegetation.usda"
+            string authoring_layer = "./hq_world_dukes.usda"
             dictionary locked = {
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
-                bool "./deps/captures/333_missing_bush16.usd" = 1
+                bool "./deps/captures/5555_textures01.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
                 bool "./deps/captures/capture02_small.usd" = 1
@@ -41,7 +41,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/333_missing_bush16.usd@
+        @./deps/captures/5555_textures01.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
