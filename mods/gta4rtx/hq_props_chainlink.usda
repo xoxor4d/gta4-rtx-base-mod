@@ -491,6 +491,7 @@ over "RootNode"
                                     custom asset inputs:normalmap_texture = @./assets/props/chainlink/01/tex/chainlink03_chainlink_light_normal_dx_OTH_Normal.n.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 0.35
                                     custom asset inputs:reflectionroughness_texture = @@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
