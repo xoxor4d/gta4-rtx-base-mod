@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (1061.8695068359373, 398.3642578125, 29.36479949951172)
-                double3 target = (2077.2140690672823, 548.9740414631996, -453.86944588886666)
+                double3 position = (920.200204193577, -82.92186495677521, 30.20383766950314)
+                double3 target = (414.70470599633643, 728.3008044493536, 45.80640142908415)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -25,7 +25,7 @@
             string authoring_layer = "./hq_props_vegetation.usda"
             dictionary locked = {
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
-                bool "./deps/captures/333_small_foliage__4.usd" = 1
+                bool "./deps/captures/333_missing_bush16.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
                 bool "./deps/captures/capture02_small.usd" = 1
@@ -41,7 +41,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/333_small_foliage__4.usd@
+        @./deps/captures/333_missing_bush16.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
@@ -461,6 +461,12 @@ def Scope "CustomTags" (
         </RootNode/meshes/mesh_CFE390CDCBDBAC62>,
         </RootNode/meshes/mesh_CE166A8096BCFA87>,
         </RootNode/meshes/mesh_253636A1AF5346A7>,
+        </RootNode/meshes/mesh_D6A7D19BB9915F65>,
+        </RootNode/meshes/mesh_F2FCE1403731F7B1>,
+        </RootNode/meshes/mesh_A7A8B5ECE44DAF17>,
+        </RootNode/meshes/mesh_16077EA3F7193EC0>,
+        </RootNode/meshes/mesh_5BE810D07416E3C7>,
+        </RootNode/meshes/mesh_28F0BB991717DD61>,
     ]
 }
 

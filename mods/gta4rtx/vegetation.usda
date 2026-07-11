@@ -1627,6 +1627,61 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_28F0BB991717DD61" (
+            references = None
+        )
+        {
+            def Xform "ref_c4c50569fb4046ffb10100ddd42f3d92" (
+                prepend references = @./assets/vegetation/Bush_Medium.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.38, 0.38, 0.35)
+                    double3 xformOp:translate = (-0.010220100996093606, 0.06401206582525276, 0.09270619270227343)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Bush_Medium_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.64
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2705684, 0.61913264, 0.93436295)
+                                    custom asset inputs:subsurface_transmittance_texture = @@
+                                    custom float inputs:subsurface_volumetric_anisotropy = 0.3762
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Bush_Branch_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Branch_Color.a.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     over "Looks"

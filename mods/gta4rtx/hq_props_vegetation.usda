@@ -304,6 +304,164 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_D6A7D19BB9915F65" (
+            references = None
+        )
+        {
+            def Xform "ref_442ad8635a9e48688e101b33d97117a7" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group06.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1.5, 1.5, 1.5)
+                    double3 xformOp:translate = (-0.0064727400443871375, -1.346314055803532, 0.008395682793235437)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_F2FCE1403731F7B1" (
+            references = None
+        )
+        {
+            def Xform "ref_e695eb2d54834fb690b08edaf19a5e6c" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1.5)
+                    double3 xformOp:translate = (0.5533813008695176, 0.3761495008602651, -0.07509356366752229)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "ref_a1991fd67ef64fc8a4a45e2369331364" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1.2)
+                    double3 xformOp:translate = (-0.07554829925854278, 0.5666022357825113, -0.030090252999258382)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_A7A8B5ECE44DAF17" (
+            references = None
+        )
+        {
+            def Xform "ref_65a9fd378bd64d309d8afb3e331a5c40" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group14.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_16077EA3F7193EC0" (
+            references = None
+        )
+        {
+            def Xform "ref_5027fecb5d10476c9b4be6597dec7cd8" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (-0.028570690210472094, 0.5949907330401061, -0.025790605340985095)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "ref_1196d754c2e84bd196883381d2eb1578" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.7, 0.7, 0.7)
+                    double3 xformOp:translate = (-0.028000168010976267, -0.43215630138990946, 0.022745132446289062)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "mesh_5BE810D07416E3C7" (
+            references = None
+        )
+        {
+            def Xform "ref_859272ceff09442a8ecf927cc226bf87" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group15.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
     }
 }
 
