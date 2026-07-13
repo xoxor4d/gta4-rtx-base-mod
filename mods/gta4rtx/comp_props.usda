@@ -502,6 +502,15 @@ over "RootNode"
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }
+
+        over "mat_BB30822C9ED39D56"
+        {
+            over "Shader"
+            {
+                custom bool inputs:blend_enabled = 1
+                custom bool inputs:use_legacy_alpha_state = 0
+            }
+        }
     }
 
     over "meshes"
@@ -537,6 +546,15 @@ over "RootNode"
             over "mesh"
             {
                 custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_06C8FDCCF331416B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
             }
         }
     }

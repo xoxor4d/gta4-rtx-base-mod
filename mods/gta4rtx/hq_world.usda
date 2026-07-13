@@ -10,7 +10,8 @@
         @./hq_world_terrain.usda@,
         @./hq_world_metal.usda@,
         @./hq_world_chainlink.usda@,
-        @./hq_world_dukes.usda@
+        @./hq_world_dukes.usda@,
+        @./hq_world_door_wind.usda@
     ]
     upAxis = "Z"
 )

@@ -1,5 +1,8 @@
 #usda 1.0
 (
+    subLayers = [
+        @./hq_world_dukes_m100.usda@
+    ]
     upAxis = "Z"
 )
 
@@ -126,9 +129,38 @@ over "RootNode"
             over "Shader"
             {
                 asset inputs:diffuse_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0
+                custom float inputs:displace_out = 0
+                custom asset inputs:height_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_Height.h.rtex.dds@
                 custom float inputs:metallic_constant = 0
                 custom asset inputs:normalmap_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_OTH_Normal.n.rtex.dds@
                 custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_558BC94094C16C2A"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/b_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.03
+                custom float inputs:displace_out = 0.005
+                custom asset inputs:height_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/b_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/b_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/b_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_FF53CA3D7D818E9C"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/c_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.03
+                custom float inputs:displace_out = 0.005
+                custom asset inputs:height_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/c_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/c_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/c_Roughness.r.rtex.dds@
             }
         }
     }

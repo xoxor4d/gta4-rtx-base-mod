@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (1176.0190525320015, 677.2302583072293, 39.918640806462)
-                double3 target = (-97.39252863617685, 386.30244230036743, 483.498422259327)
+                double3 position = (1224.9119075290403, 704.1281714107963, 39.10580694246937)
+                double3 target = (261.2700398602502, -1522.01961387769, -362.30262207921555)
             }
             dictionary Right = {
                 double3 position = (0, -500, 0)
@@ -22,7 +22,7 @@
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./hq_world_dukes.usda"
+            string authoring_layer = "./hq_world_nature.usda"
             dictionary locked = {
                 bool "./deps/captures/00000_mark100_dukes_ogsky.usd" = 1
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
@@ -441,6 +441,7 @@ def Scope "CustomTags" (
     prepend rel collection:marker:includes = [
         </RootNode/instances/inst_215CD62CAB0D7A28_0/mesh>,
         </RootNode/instances/inst_83F5F10943D2CC47_0/mesh>,
+        </RootNode/meshes/mesh_19F9536EB094A557>,
     ]
     uniform token collection:rain_particle_system:expansionRule = "explicitOnly"
     prepend rel collection:rain_particle_system:includes = [

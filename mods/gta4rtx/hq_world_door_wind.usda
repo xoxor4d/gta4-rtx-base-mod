@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_CF8D5170F6E05E74"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/doors_wind/CF8D5170F6E05E74/_Diffuse.a.rtex.dds@
+                custom asset inputs:height_texture = @./assets/wtex/doors_wind/CF8D5170F6E05E74/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/doors_wind/CF8D5170F6E05E74/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/doors_wind/CF8D5170F6E05E74/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_361C55895F65A29B"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/doors_wind/361C55895F65A29B/d_Albedo.a.rtex.dds@
+                custom asset inputs:height_texture = @./assets/wtex/doors_wind/361C55895F65A29B/d_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/doors_wind/361C55895F65A29B/d_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/doors_wind/361C55895F65A29B/d_Roughness.r.rtex.dds@
+            }
+        }
+    }
+}
+
