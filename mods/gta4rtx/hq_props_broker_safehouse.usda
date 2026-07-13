@@ -501,8 +501,9 @@ over "RootNode"
         {
             over "Shader"
             {
-                asset inputs:diffuse_texture = @./assets/ptex/brokerSH/paper_box03/038E88B876FC1917_albedo.a.rtex.dds@
-                custom asset inputs:reflectionroughness_texture = @./assets/ptex/brokerSH/paper_box03/038E88B876FC1917_roughness.r.rtex.dds@
+                asset inputs:diffuse_texture = @./assets/ptex/brokerSH/paper_box03/_Albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/ptex/brokerSH/paper_box03/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/ptex/brokerSH/paper_box03/_Rough.r.rtex.dds@
             }
         }
 

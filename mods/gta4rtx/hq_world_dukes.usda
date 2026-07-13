@@ -32,6 +32,105 @@ over "RootNode"
                 custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/B05E66FBA92A9CFE/bB05E66F_roughness.r.rtex.dds@
             }
         }
+
+        over "mat_B97FE41880D0BD3D"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/B97FE41880D0BD3D/_Diffuse.a.rtex.dds@
+                custom float inputs:displace_in = 0.018
+                custom float inputs:displace_out = 0.01
+                custom asset inputs:height_texture = @./assets/wtex/buildings/B97FE41880D0BD3D/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/B97FE41880D0BD3D/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/B97FE41880D0BD3D/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_ECCF0467B1465429"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/ECCF0467B1465429/_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.0085
+                custom float inputs:displace_out = 0.012
+                custom asset inputs:height_texture = @./assets/wtex/buildings/ECCF0467B1465429/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/ECCF0467B1465429/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/ECCF0467B1465429/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_CC02B36849622D35"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/CC02B36849622D35/_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.0051
+                custom float inputs:displace_out = 0.0051
+                custom asset inputs:height_texture = @./assets/wtex/buildings/CC02B36849622D35/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/CC02B36849622D35/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/CC02B36849622D35/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_FDE30BEFA7F17D2C"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/FDE30BEFA7F17D2C/_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.025
+                custom float inputs:displace_out = 0.007
+                custom asset inputs:height_texture = @./assets/wtex/buildings/FDE30BEFA7F17D2C/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/FDE30BEFA7F17D2C/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/FDE30BEFA7F17D2C/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_05F4E4C76C11471B"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/05F4E4C76C11471B/_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.006
+                custom float inputs:displace_out = 0.008
+                custom asset inputs:height_texture = @./assets/wtex/buildings/05F4E4C76C11471B/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/05F4E4C76C11471B/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/05F4E4C76C11471B/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_DA5D034A4F02FF3E"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/DA5D034A4F02FF3E/_Diffuse.a.rtex.dds@
+                custom float inputs:displace_in = 0.008
+                custom float inputs:displace_out = 0
+                custom asset inputs:height_texture = @./assets/wtex/buildings/DA5D034A4F02FF3E/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/DA5D034A4F02FF3E/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/DA5D034A4F02FF3E/_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_FE6775E2A9A4D826"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_misc/FE6775E2A9A4D826/FE6775E2A9A4D826_basketballfield_Albedo_4k.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_misc/FE6775E2A9A4D826/FE6775E2A9A4D826_basketballfield_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_misc/FE6775E2A9A4D826/FE6775E2A9A4D826_basketballfield_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_50002B14FAF9C3EB"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_Albedo.a.rtex.dds@
+                custom float inputs:metallic_constant = 0
+                custom asset inputs:normalmap_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/buildings/50002B14FAF9C3EB/v1_Roughness.r.rtex.dds@
+            }
+        }
     }
 }
 

@@ -1,0 +1,24 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_D43E816CBA0A8939"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_nature/D43E816CBA0A8939/g_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.052
+                custom float inputs:displace_out = 0.033
+                custom asset inputs:height_texture = @./assets/wtex/ground_nature/D43E816CBA0A8939/g_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_nature/D43E816CBA0A8939/g_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_nature/D43E816CBA0A8939/g_Roughness.r.rtex.dds@
+            }
+        }
+    }
+}
+

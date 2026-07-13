@@ -1,6 +1,8 @@
 #usda 1.0
 (
     subLayers = [
+        @./hq_world_nature.usda@,
+        @./hq_world_concrete.usda@,
         @./hq_world_broker_fences.usda@,
         @./hq_world_broker_sidewalks.usda@,
         @./hq_world_broker_safehouse.usda@,

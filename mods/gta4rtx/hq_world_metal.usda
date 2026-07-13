@@ -27,6 +27,20 @@ over "RootNode"
             {
             }
         }
+
+        over "mat_457EFB2C3D2705B6"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/metal/457EFB2C3D2705B6/m_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.034
+                custom float inputs:displace_out = 0.003
+                custom asset inputs:height_texture = @./assets/wtex/metal/457EFB2C3D2705B6/m_Height.h.rtex.dds@
+                custom asset inputs:metallic_texture = @./assets/wtex/metal/457EFB2C3D2705B6/m_Metalness.m.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/metal/457EFB2C3D2705B6/m_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/metal/457EFB2C3D2705B6/m_Roughness.r.rtex.dds@
+            }
+        }
     }
 }
 

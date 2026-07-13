@@ -1,0 +1,76 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_22E3FBE0E2827709"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_conc/22E3FBE0E2827709/albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.028
+                custom float inputs:displace_out = 0.011000001
+                custom asset inputs:height_texture = @./assets/wtex/ground_conc/22E3FBE0E2827709/height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_conc/22E3FBE0E2827709/normal_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_conc/22E3FBE0E2827709/rough.r.rtex.dds@
+            }
+        }
+
+        over "mat_39DAC2C3B8D9695A"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_conc/39DAC2C3B8D9695A/_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.024
+                custom float inputs:displace_out = 0.013
+                custom asset inputs:height_texture = @./assets/wtex/ground_conc/39DAC2C3B8D9695A/_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_conc/39DAC2C3B8D9695A/_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_conc/39DAC2C3B8D9695A/_Rough.r.rtex.dds@
+            }
+        }
+
+        over "mat_BBF7D8114F605CDA"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_conc/BBF7D8114F605CDA/c_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.029000001
+                custom float inputs:displace_out = 0.010000001
+                custom asset inputs:height_texture = @./assets/wtex/ground_conc/BBF7D8114F605CDA/c_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_conc/BBF7D8114F605CDA/c_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_conc/BBF7D8114F605CDA/c_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_3EE052E75FA72A98"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_conc/3EE052E75FA72A98/c_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.029
+                custom float inputs:displace_out = 0.01
+                custom asset inputs:height_texture = @./assets/wtex/ground_conc/3EE052E75FA72A98/c_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_conc/3EE052E75FA72A98/c_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_conc/3EE052E75FA72A98/c_Roughness.r.rtex.dds@
+            }
+        }
+
+        over "mat_C57AAA7E44481B85"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/wtex/ground_conc/C57AAA7E44481B85/d_Albedo.a.rtex.dds@
+                custom float inputs:displace_in = 0.009000001
+                custom float inputs:displace_out = 0.009000001
+                custom asset inputs:height_texture = @./assets/wtex/ground_conc/C57AAA7E44481B85/d_Height.h.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/ground_conc/C57AAA7E44481B85/d_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/ground_conc/C57AAA7E44481B85/d_Roughness.r.rtex.dds@
+            }
+        }
+    }
+}
+
