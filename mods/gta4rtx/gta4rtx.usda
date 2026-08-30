@@ -3,28 +3,31 @@
     customLayerData = {
         dictionary cameraSettings = {
             dictionary Front = {
-                double3 position = (500, 0, 0)
+                double3 position = (648445.8369561781, 530.7599841130705, -6.703943670844183)
                 double radius = 500
+                double3 target = (552.5900268553523, 530.7599841127827, -6.703943670412599)
             }
             dictionary Perspective = {
-                double3 position = (1224.9119075290403, 704.1281714107963, 39.10580694246937)
-                double3 target = (261.2700398602502, -1522.01961387769, -362.30262207921555)
+                double3 position = (820.275296005017, -258.422413135614, 16.32365952822574)
+                double3 target = (4.104814723484651, -1008.7278528952515, -239.31640992559562)
             }
             dictionary Right = {
-                double3 position = (0, -500, 0)
+                double3 position = (552.5900268554196, -647362.4869452096, -6.703943670844183)
                 double radius = 500
+                double3 target = (552.5900268554196, 530.7599841130432, -6.703943670700322)
             }
             dictionary Top = {
-                double3 position = (0, 0, 500)
+                double3 position = (552.5900268554196, 530.7599841130705, 647886.5429856518)
                 double radius = 500
+                double3 target = (552.5900268554196, 530.7599841130705, -6.703943670843728)
             }
             string boundCamera = "/OmniverseKit_Persp"
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./hq_world_nature.usda"
+            string authoring_layer = "./comp_peds.usda"
             dictionary locked = {
-                bool "./deps/captures/00000_mark100_dukes_ogsky.usd" = 1
+                bool "./deps/captures/0000_roman_sss__5.usd" = 1
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
@@ -41,7 +44,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/00000_mark100_dukes_ogsky.usd@
+        @./deps/captures/0000_roman_sss__5.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"

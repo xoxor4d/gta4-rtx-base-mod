@@ -146,25 +146,6 @@ over "RootNode"
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
             }
         }
-
-        over "mesh_A2574290006CB62E"
-        {
-            over "mesh"
-            {
-                custom uniform bool remix_category:alpha_blend_to_cutout = 1
-            }
-        }
-    }
-
-    over "Looks"
-    {
-        over "mat_71BF6BFD101768A5"
-        {
-            over "Shader"
-            {
-                custom bool inputs:use_legacy_alpha_state = 0
-            }
-        }
     }
 }
 

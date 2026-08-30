@@ -228,11 +228,17 @@ over "RootNode"
             {
                 asset inputs:diffuse_texture = @./assets/npc/roman/C73DACD54E38E12F_2xx.a.rtex.dds@
                 custom asset inputs:normalmap_texture = @./assets/npc/roman/roman_head_000_normal_dx_OTH_Normal.n.rtex.dds@
+                custom float inputs:reflection_roughness_constant = 0.5
                 custom asset inputs:reflectionroughness_texture = @./assets/npc/roman/roman_head_000_roughness.r.rtex.dds@
-                custom bool inputs:subsurface_diffusion_profile = 1
-                custom float inputs:subsurface_radius_scale = 6.24
-                custom asset inputs:subsurface_radius_texture = @./assets/npc/roman/C73DACD54E38E12F_sss.a.rtex.dds@
+                custom bool inputs:subsurface_diffusion_profile = 0
+                custom float inputs:subsurface_max_sample_radius = 15
+                custom float inputs:subsurface_measurement_distance = 0
+                custom color3f inputs:subsurface_radius = (1, 0.99999, 0.99999)
+                custom float inputs:subsurface_radius_scale = 5
+                custom asset inputs:subsurface_radius_texture = @./assets/npc/roman/Roman-SSS.a.rtex.dds@
+                custom color3f inputs:subsurface_transmittance_color = (0.9999905, 1, 0.99999)
                 custom asset inputs:subsurface_transmittance_texture = @./assets/npc/roman/C73DACD54E38E12F_2xx.a.rtex.dds@
+                custom float inputs:subsurface_volumetric_anisotropy = 0
             }
         }
 
