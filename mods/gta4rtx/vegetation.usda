@@ -202,11 +202,10 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Bush_Leaf_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 1.8399999
+                                    custom float inputs:subsurface_measurement_distance = 3
                                     custom color3f inputs:subsurface_single_scattering_albedo = (0.5, 0.5, 0.5)
-                                    custom asset inputs:subsurface_single_scattering_texture = @@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.12, 0.1, 0.95)
-                                    custom asset inputs:subsurface_transmittance_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -278,6 +277,14 @@ over "RootNode"
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
+                            }
+                        }
+
+                        over "Oak_Brown_01_LOD0"
+                        {
+                            over "Oak_Brown_01_LOD0"
+                            {
+                                uniform bool doubleSided = 0
                             }
                         }
                     }
@@ -494,11 +501,9 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Bush_Leaf_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
-                                    custom bool inputs:subsurface_diffusion_profile = 0
-                                    custom float inputs:subsurface_measurement_distance = 0.88
+                                    custom float inputs:subsurface_measurement_distance = 3
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.12, 0.1, 0.95)
-                                    custom asset inputs:subsurface_transmittance_texture = @@
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -1202,66 +1207,6 @@ over "RootNode"
         {
         }
 
-        over "mesh_5E12450A12CDDAD7" (
-            references = None
-        )
-        {
-            def Xform "ref_ce7f8a855bc0430c8de9d41bd2dccc8f" (
-                prepend references = @./assets/vegetation/LondonPlane.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 146.5)
-                    float3 xformOp:scale = (0.9, 0.9, 0.9)
-                    double3 xformOp:translate = (-5.684341886080802e-14, 1.1368683772161603e-13, 0)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "LondonPlane_Leaves"
-                        {
-                            over "LondonPlane_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
-
-                        over "Looks"
-                        {
-                            over "LondonPlane_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlane_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.05017815, 0.30897692, 0.5907336)
-                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-
-                            over "LondonPlaneBark_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlaneBark_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         over "mesh_D241E7D5964D0473" (
             references = None
         )
@@ -1323,7 +1268,7 @@ over "RootNode"
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlane_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.05, 0.31, 0.59)
+                                    custom color3f inputs:subsurface_transmittance_color = (0.51862663, 0.5252261, 0.9459459)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -1641,9 +1586,6 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 1.36
-                                    custom color3f inputs:subsurface_transmittance_color = (0.20333625, 0.3739723, 0.95752895)
-                                    custom asset inputs:subsurface_transmittance_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1653,6 +1595,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1662,7 +1605,6 @@ over "RootNode"
                             over "Azalea02_leaves"
                             {
                                 uniform bool doubleSided = 1
-                                custom bool inputs:use_legacy_alpha_state = 0
                             }
                         }
                     }
@@ -1670,12 +1612,173 @@ over "RootNode"
             }
         }
 
-        over "mesh_28F0BB991717DD61" (
+        over "mesh_5E12450A12CDDAD7" (
             references = None
         )
         {
-            def Xform "ref_c4c50569fb4046ffb10100ddd42f3d92" (
-                prepend references = @./assets/vegetation/Bush_Medium.usd@
+            def Xform "ref_ce7f8a855bc0430c8de9d41bd2dccc8f" (
+                prepend references = @./assets/vegetation/LondonPlane.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 146.5)
+                    float3 xformOp:scale = (0.9, 0.9, 0.9)
+                    double3 xformOp:translate = (-5.684341886080802e-14, 1.1368683772161603e-13, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "LondonPlane_Leaves"
+                        {
+                            over "LondonPlane_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "LondonPlane_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/LondonPlane_Color.a.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlane_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.06976638, 0.46012598, 0.7528958)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "LondonPlaneBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/LondonPlane_BaseColor.a.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlaneBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "LondonPlane"
+                        {
+                            over "LOD0"
+                            {
+                                over "LOD0"
+                                {
+                                    uniform bool doubleSided = 0
+                                }
+                            }
+                        }
+
+                        over "LondonPlane_LOD0"
+                        {
+                            over "LondonPlane_LOD0"
+                            {
+                                uniform bool doubleSided = 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_372835B01CA74BD8" (
+            references = None
+        )
+        {
+            def Xform "ref_73148d9e9bf74d6ab0302b2eae24afe0" (
+                prepend references = @./assets/vegetation/PineTree_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:scale = (1, 1, 1)
+
+                    over "World"
+                    {
+                        over "PineTree_01_Leaves"
+                        {
+                            over "PineTree_01_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "PineTree_01"
+                        {
+                            over "PineTree_01"
+                            {
+                                uniform bool doubleSided = 0
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Pine_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "PineTree_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    color3f inputs:diffuse_color_constant = (0.2, 0.2, 0.2)
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.85
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.17551915, 0.17551957, 0.7837838)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_33F0373BF620CE09" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_056A07D69624717C" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_21C065D15A2295CE" (
+            references = None
+        )
+        {
+            def Xform "ref_27ea5f393f47483183c54249a4634eff" (
+                prepend references = @./assets/vegetation/Azalea_02.usd@
             )
             {
                 custom bool IsRemixRef = 1
@@ -1687,35 +1790,39 @@ over "RootNode"
                 over "XForms"
                 {
                     float3 xformOp:rotateXYZ = (0, 0, 0)
-                    float3 xformOp:scale = (0.38, 0.38, 0.35)
-                    double3 xformOp:translate = (-0.010220100996093606, 0.06401206582525276, 0.09270619270227343)
+                    float3 xformOp:scale = (0.7, 0.7, 0.7)
+                    double3 xformOp:translate = (0, 0, 0)
                     uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
 
                     over "World"
                     {
+                        over "Azalea02_leaves"
+                        {
+                            over "Azalea02_leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
                         over "Looks"
                         {
-                            over "Bush_Medium_Mat"
+                            over "FlowerStem_05_Mat"
                             {
                                 over "Shader"
                                 {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.64
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.2705684, 0.61913264, 0.93436295)
-                                    custom asset inputs:subsurface_transmittance_texture = @@
-                                    custom float inputs:subsurface_volumetric_anisotropy = 0.3762
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
-                            over "Bush_Branch_Mat"
+                            over "Azalea_02_Mat"
                             {
                                 over "Shader"
                                 {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Branch_Color.a.rtex.dds@
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_02_Color.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1723,6 +1830,271 @@ over "RootNode"
                     }
                 }
             }
+        }
+
+        over "mesh_28F0BB991717DD61" (
+            references = None
+        )
+        {
+            def Xform "ref_89ef9c8028f04061b5b9ece72d2b5e26" (
+                prepend references = @./assets/vegetation/Azalea.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 139.59505)
+                    float3 xformOp:scale = (0.5, 0.5, 0.5)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Azalea_Leaves"
+                        {
+                            over "Azalea_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "FlowerStem_05_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Azalea_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_01AA5D84C5EFD0D7" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_BAA2F80A0B3155FC" (
+            references = None
+        )
+        {
+            def Xform "ref_2ad87a8801a04050b648caf455c7b09f" (
+                prepend references = @./assets/vegetation/GrassDead_Cluster.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Grass_Dead_Patch01"
+                        {
+                            over "Grass_Dead_Patch01"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Grass_Dead_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    color3f inputs:diffuse_color_constant = (0.2, 0.2, 0.2)
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Grass_Dead_01_Color.a.rtex.dds@
+                                    color3f inputs:emissive_color_constant = (1, 0.1, 0.1)
+                                    float inputs:emissive_intensity = 40
+                                    custom float inputs:reflection_roughness_constant = 0.5
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Grass_Dead_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "GrassDead_Cluster"
+                        {
+                            over "GrassDead_Cluster"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_B070794988A83D94" (
+            references = None
+        )
+        {
+            def Xform "ref_cee2694860cb4b8aa53fcb5c729732ae" (
+                prepend references = @./assets/vegetation/PineTree_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:scale = (1, 1, 1)
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Pine_Bark_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "PineTree_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 0.5
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.25652567, 0.7607351, 0.9227799)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "PineTree_02_Leaves"
+                        {
+                            over "PineTree_02_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_29759C1BB46E22B4" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_1ABCF997E55E2103" (
+            references = None
+        )
+        {
+            def Xform "ref_b6c1d58797be49fdbdc69898712b0099" (
+                prepend references = @./assets/vegetation/PineTree_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:scale = (1, 1, 1)
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Pine_Bark_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "PineTree_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/PineTree_02_Color.a.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.5
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.32
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.3473413, 0.66293365, 0.8996139)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "PineTree_02_Leaves"
+                        {
+                            over "PineTree_02_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_4CF31F9A8783FA38" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_7915FCE29800C2E3" (
+            references = None
+        )
+        {
         }
     }
 
