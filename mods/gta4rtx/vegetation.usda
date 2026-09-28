@@ -1651,9 +1651,9 @@ over "RootNode"
                                 {
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/LondonPlane_Color.a.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlane_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom float inputs:subsurface_measurement_distance = 0.6
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.06976638, 0.46012598, 0.7528958)
+                                    custom color3f inputs:subsurface_transmittance_color = (0.26743788, 0.8880309, 0.86646575)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -2096,11 +2096,163 @@ over "RootNode"
         )
         {
         }
+
+        over "mesh_016EBDA62DBE98F0" (
+            references = None
+        )
+        {
+            def Xform "ref_34ff43729b11440286a8b771bdd6b51a" (
+                prepend references = @./assets/vegetation/Bush_Medium.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.4, 0.4, 0.4)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Bush_Medium_Leaves"
+                        {
+                            over "Bush_Medium_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Bush_Branch_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Bush_Medium_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Bush_Leaf_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_89859768E39B2219" (
+            references = None
+        )
+        {
+            def Xform "ref_935a43c2926b42c1a2b3443c8dff1be8" (
+                prepend references = @./assets/vegetation/WeedFlowerPatch.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 90)
+                    float3 xformOp:scale = (0.37, 0.37, 0.37)
+                    double3 xformOp:translate = (0, 0, 7.105427357601002e-15)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "WeedFlowerPatch_LOD0"
+                        {
+                            over "WeedFlowerPatch_LOD0"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Stem_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/WWStem_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/WWStem_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/WWStem_Roughness.r.rtex.dds@
+                                }
+                            }
+
+                            over "WeedFlowerPatch_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/WeedFlowerPatch_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/WeedFlowerPatch_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_thickness_texture = @@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.5, 0.5, 0.5)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "WWStem_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/WWStem_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.5
+                                    custom color3f inputs:subsurface_single_scattering_albedo = (0.17779714, 0.36293435, 0.11210328)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "WeedFlowerPatch"
+                        {
+                            over "WeedFlowerPatch"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     over "Looks"
     {
         over "mat_71BF6BFD101768A5"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 0
+            }
+        }
+
+        over "mat_1DE4EE458B63FF13"
         {
             over "Shader"
             {
