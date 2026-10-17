@@ -1,6 +1,7 @@
 #usda 1.0
 (
     subLayers = [
+        @./comp_world_alpha_cutouts.usda@,
         @./comp_world_roads.usda@,
         @./comp_world_broken_decals.usda@,
         @./comp_world_deleted_meshes.usda@,
@@ -861,6 +862,14 @@ over "RootNode"
                 custom float inputs:subsurface_measurement_distance = 14
                 custom color3f inputs:subsurface_transmittance_color = (0.7915058, 0.7915026, 0.7914979)
                 custom float inputs:subsurface_volumetric_anisotropy = 0.2079
+            }
+        }
+
+        over "mat_A92D98212C514DC3"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 0
             }
         }
     }

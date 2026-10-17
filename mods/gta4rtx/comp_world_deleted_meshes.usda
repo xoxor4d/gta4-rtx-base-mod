@@ -24,6 +24,12 @@ over "RootNode"
         over "mesh_8E42B81CE55EC447"
         {
         }
+
+        over "mesh_BCBFB6A37ACA96C2" (
+            references = None
+        )
+        {
+        }
     }
 }
 
