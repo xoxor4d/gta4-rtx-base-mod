@@ -810,6 +810,9 @@ over "RootNode"
         {
             over "Shader"
             {
+                asset inputs:diffuse_texture = @./assets/wtex/sidewalk/1C5E10FFAB7F5F31/albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/wtex/sidewalk/1C5E10FFAB7F5F31/26DA63EA394C9A5D_normal_oth.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/wtex/sidewalk/1C5E10FFAB7F5F31/63ECB593B184296B_chR_rough.dds@
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }
