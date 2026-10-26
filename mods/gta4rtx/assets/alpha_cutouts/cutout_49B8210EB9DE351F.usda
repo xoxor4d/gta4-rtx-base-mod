@@ -66,11 +66,11 @@ def Xform "ReferenceTarget" (
                         uniform bool enable_opacity = 1
                         uniform uint filter_mode = 1
                         uniform token info:implementationSource = "sourceAsset"
-                        uniform asset info:mdl:sourceAsset = @../../deps/captures/materials/AperturePBR_Opacity.mdl@
+                        uniform asset info:mdl:sourceAsset = @AperturePBR_Opacity.mdl@
                         uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
                         int inputs:alpha_test_type = 7
                         bool inputs:blend_enabled = 0
-                        asset inputs:diffuse_texture = @../../deps/captures/textures/4FBB4A2D575136AE.dds@ (
+                        asset inputs:diffuse_texture = @./textures/4FBB4A2D575136AE.dds@ (
                             colorSpace = "auto"
                         )
                         bool inputs:use_legacy_alpha_state = 0

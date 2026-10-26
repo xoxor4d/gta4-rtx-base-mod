@@ -12,7 +12,7 @@ over "RootNode"
         )
         {
             def Xform "ref_fcd5febbc5c14c1f868e3babcd5516d1" (
-                prepend references = @../../assets/alpha_cutouts/cutout_AE8364B9FDA861C7.usda@
+                prepend references = @./assets/alpha_cutouts/cutout_AE8364B9FDA861C7.usda@
             )
             {
                 custom bool IsRemixRef = 1
