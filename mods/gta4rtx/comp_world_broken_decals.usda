@@ -163,6 +163,14 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_E8D268B0FA41513A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
     }
 
     over "instances"
@@ -192,6 +200,14 @@ over "RootNode"
             {
                 custom bool inputs:blend_enabled = 1
                 custom int inputs:blend_type = 0
+                custom bool inputs:use_legacy_alpha_state = 0
+            }
+        }
+
+        over "mat_BAFB72E209CA7826"
+        {
+            over "Shader"
+            {
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }

@@ -514,6 +514,20 @@ over "RootNode"
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }
+
+        over "mat_09F775FC0273D152"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.45499998
+                custom float inputs:reflection_roughness_constant = 1
+                custom float inputs:subsurface_measurement_distance = 2.3999999
+                custom color3f inputs:subsurface_transmittance_color = (0.3783784, 0.37810177, 0.3067933)
+                custom asset inputs:subsurface_transmittance_texture = @./assets/alpha_cutouts/textures/09F775FC0273D152.dds@
+                custom float inputs:subsurface_volumetric_anisotropy = 0.0396
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
     }
 
     over "meshes"
@@ -558,6 +572,14 @@ over "RootNode"
             {
                 custom uniform bool remix_category:alpha_blend_to_cutout = 1
                 custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_602D44CB5FA7BE2C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
             }
         }
     }

@@ -58,7 +58,7 @@ over "RootNode"
                 custom bool inputs:blend_enabled = 0
                 custom int inputs:blend_type = 0
                 custom bool inputs:inverted_blend = 0
-                custom bool inputs:use_legacy_alpha_state = 0
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
 
@@ -745,6 +745,7 @@ over "RootNode"
                 custom color3f inputs:subsurface_single_scattering_albedo = (0.9073359, 0.8723036, 0.8723036)
                 custom color3f inputs:subsurface_transmittance_color = (0.9073359, 0.8758068, 0.8758068)
                 custom float inputs:subsurface_volumetric_anisotropy = -0.43559998
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
 
@@ -875,6 +876,255 @@ over "RootNode"
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }
+
+        over "mat_C13EB92C03F04244"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_C3949620B8625144"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_65C9650C5236DA86"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_2FC29F50C938C7DE"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_7BFEADA72AB211E5"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_D37C50F74A058ED8"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_08F84532E7F0D666"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_6C1FC64F8904AFB3"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_7F7F35671BA73A91"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_4B34AE108C915838"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_56C0D7D3B9F6C76F"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_FAB1F68864D4EE13"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_4C6A2CFE5F6D5C2E"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_1D0799D7099F7F76"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_E2E57CE20285F9C0"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_3F1A8C25D78538B7"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_115374B179174BDF"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_CFE4C50244E25766"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_FF9E5C1531EDEAA7"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_2FC3FBC55629D8DF"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_C42DCB04D8D8597E"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_311805F3DEE26765"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_DD5BE61807C778CC"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.84999996
+                custom float inputs:reflection_roughness_constant = 0.74
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_040B854A29D0E5CB"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_ECD47AF1FDBCE133"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.585
+                custom float inputs:reflection_roughness_constant = 0.64
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_ACE93554C4CFB245"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_1D4E1F92C5A08F69"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_EFD00DE0C59E1CAE"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+                custom float inputs:subsurface_measurement_distance = 0.79999995
+                custom color3f inputs:subsurface_single_scattering_albedo = (0.93822396, 0.93821454, 0.93821454)
+                custom color3f inputs:subsurface_transmittance_color = (0.85714287, 0.8108108, 0.8108108)
+                custom asset inputs:subsurface_transmittance_texture = @./assets/alpha_cutouts/textures/EFD00DE0C59E1CAE.dds@
+                custom float inputs:subsurface_volumetric_anisotropy = 0.5445
+            }
+        }
+
+        over "mat_19105708891A6399"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_0CF7A64BDFA6D766"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
     }
 
     over "meshes"
@@ -990,6 +1240,1154 @@ over "RootNode"
                 custom uniform bool remix_category:decal_Static = 0
             }
         }
+
+        over "mesh_817750BDEDB98F7B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_343B72295610AD1A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_58F636DE141B78F3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_1B9E564AE13BD213"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_4F2F663DF5AFE99C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C4A9F2CC104FA69C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_20FB1CC558064E92"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_31758AC867151936"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_D84C92D0A703AEA3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CB8A1E75A1CEC21D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_205E816BDAAEC8BF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BB7AFCD670602916"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6C47E853B16E0D95"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9355F0EDEB4FFBCF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_84AA9914977A1415"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B1EBE9BF25494687"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_953F04AF8352C085"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_AD084B57F6F6CBB3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8E8B446EB1632875"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_FE526EDE46269368"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1D11A28AA4ED0B5E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_FAEA35F25F554130"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1E667FB44A95A7B6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_FCAC72B193AA5E33"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B570424C699A93D0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_410F88EC34E7B967"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0982C8C4FCDDB665"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_2765DB4DDD56FB53"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DC5A6DAA97613AAF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B842B6466233ED8A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_95421997E2145752"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_347671487D9D8723"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5B74C29A470FFE08"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_90D0C27314024A73"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C3D845FC66D0E76F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_07F2009B11CC7F7F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B4EDB8DFB031918E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B757DAEA9C29D9CD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9D882D49D84A74BB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_90BD12DA84F129BE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6FAF700B8DFE650C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E5B72F17AD1A160E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9D76D0C3325A0778"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_868CA2A80BA6DCBE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_23B6A4D104CFA628"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1A1ACBEB2928FA51"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F9E6CFA40E848071"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BFB592DA97D55524"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6DE1CC47EAB3C7CC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_24B0380322191951"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CC98E61CED0D6FD4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F53FD96D5CB0FC88"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_856496B3D82C6B4C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5CC92FD70D5B23B5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D2DB21BCEC03AAB8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4FC77573482801A3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_144024EEEC3D68A2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CEEF647360BA9946"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6D744B78828E9076"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0C4C862C947B210A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_40AF63559271C85B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B4F166A3450C056A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_37DBB71047ACF6B0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D6FD222C149D2973"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7906B66C0A4C2750"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_2D7D3766957B52B7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_189B85BB5D07E5DD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6D439767D4512FE9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F11597E19260CA13"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5066852A8779D9D3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3FF8ED8EFC32D901"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C74FA6D1D8ECB9D0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_71B80AD081991529"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4432D05A1A76A1DF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_691B6A1ED106ECD7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_AE03359CC176E1DE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_8FF0C63C3A57F38E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_A5209FA8CF4FFCC2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_E4085EABD0A16845"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_B652525A30925326"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_139942004770A5FC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_BF80B70E0AB31E4F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_0352409D805438C2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5DFD258EF7E0B2AE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_DAE73E4032C41C3F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_FA1AE013383E6899"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A5013FF49185F104"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1F073E2523FFB5F6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_CE6954B6FD89172A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_87979DE8A32F1010"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_D653EAB383019362"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_22456BF8259541AC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_91627F0903E0A997"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9D8B9E3A44D0E75E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0691B245318EBE01"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_DF53EC385615A69C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1A87F4737670A872"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_099BC8353B92F23A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B9EF89149A946988"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5D4ACEDC9C82EC47"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_91AC99D01809ABB9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_575BAB8300DB8BA3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8EB5249842A29205"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_6BFE74C2FCBF4BAD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
+
+        over "mesh_A6E35F3C294D7DA0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A232E56D0EADA825"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9D866F67DAEB50EE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_AB2D220D137C822A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4D7F2A666948F22D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C08D8F0A549E7A81"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F6D5B7839385005A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A3FDDEA9BF07057E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DA2DC6F1BF47E1A0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_39F303E5397539C8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BE8D995039C70827"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_AC993DD4164EBA2C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_11515EDAB55A1408"
+        {
+            over "ref_d5701cd2ca6e4d2ba76aabf4321ba88d"
+            {
+                over "XForms"
+                {
+                    over "cutout_11515EDAB55A1408"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom color3f inputs:subsurface_single_scattering_albedo = (1, 0.99999, 0.99999)
+                                    custom color3f inputs:subsurface_transmittance_color = (1, 0.99999, 0.99999)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_C22515BBD610EEE5"
+        {
+            over "ref_62945d1538824e0b81b1280fabce8dee"
+            {
+                over "XForms"
+                {
+                    over "cutout_C22515BBD610EEE5"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0
+                                    custom float inputs:reflection_roughness_constant = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_01734D306473AD41"
+        {
+            over "ref_38e851c0de5544a59df96a20afb0f681"
+            {
+                over "XForms"
+                {
+                    over "cutout_01734D306473AD41"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_5141745051E9FB42"
+        {
+            over "ref_7e8bf1639e6147f79c64a23217383348"
+            {
+                over "XForms"
+                {
+                    over "cutout_5141745051E9FB42"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_E501B55196AF5DE2"
+        {
+            over "ref_1c16bbeea7734457ab982be2f0c995f1"
+            {
+                over "XForms"
+                {
+                    over "cutout_E501B55196AF5DE2"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0
+                                    custom float inputs:reflection_roughness_constant = 1
+                                    custom bool inputs:subsurface_diffusion_profile = 0
+                                    custom float inputs:subsurface_measurement_distance = 1.2
+                                    custom float inputs:subsurface_radius_scale = 2
+                                    custom color3f inputs:subsurface_single_scattering_albedo = (1, 0.9999967, 0.99999)
+                                    custom asset inputs:subsurface_single_scattering_texture = @@
+                                    custom asset inputs:subsurface_thickness_texture = @@
+                                    custom asset inputs:subsurface_transmittance_texture = @./assets/alpha_cutouts/textures/EFD00DE0C59E1CAE.dds@
+                                    custom float inputs:subsurface_volumetric_anisotropy = 0.45
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_9F2AED117230E007"
+        {
+            over "ref_4841a663cf7240cf8d82cd1257d6f11a"
+            {
+                over "XForms"
+                {
+                    over "cutout_9F2AED117230E007"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_39DFF30566174D3F"
+        {
+            over "ref_c8e3d9ae52044a31b8634844e1ed6fa1"
+            {
+                over "XForms"
+                {
+                    over "cutout_39DFF30566174D3F"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:reflection_roughness_constant = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_254FA552D8F6ABB9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
     }
+}
+
+over "Camera_01"
+{
+    custom vector3d omni:kit:centerOfInterest = (0, 0, -133.10924009931006)
+    float3 xformOp:rotateYXZ = (73.235596, 2.205372e-14, 114.54159)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (1535.3179474742394, 440.32852810041834, 76.74539768388026)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateYXZ", "xformOp:scale"]
+}
+
+over "Camera"
+{
+    custom vector3d omni:kit:centerOfInterest = (0, 0, -256.7913057231903)
+    float3 xformOp:rotateYXZ = (88.495575, -180, -95.53962)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (1674.8839115838011, 362.6103433421953, 31.609930152171383)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateYXZ", "xformOp:scale"]
 }
 

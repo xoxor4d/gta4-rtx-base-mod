@@ -124,6 +124,108 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_FBC8000A2BFE0584" (
+            references = None
+        )
+        {
+            def Xform "ref_b5e6f7853fe24fe1b0763d0d3d8b9d08" (
+                prepend references = @./assets/alpha_cutouts/cutout_FBC8000A2BFE0584.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "cutout_FBC8000A2BFE0584"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0.85499996
+                                    custom float inputs:reflection_roughness_constant = 0.53999996
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_450889DF1FB23E80" (
+            references = None
+        )
+        {
+            def Xform "ref_f674ce3961fe4a1586718617fed7fe91" (
+                prepend references = @./assets/alpha_cutouts/cutout_450889DF1FB23E80.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "cutout_450889DF1FB23E80"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0.35
+                                    custom float inputs:reflection_roughness_constant = 0.675
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_971C85C75B00712D" (
+            references = None
+        )
+        {
+            def Xform "ref_16a6a59867f8479a9e79cd0e214195b1" (
+                prepend references = @./assets/alpha_cutouts/cutout_971C85C75B00712D.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    over "cutout_971C85C75B00712D"
+                    {
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    custom float inputs:metallic_constant = 0.38
+                                    custom float inputs:reflection_roughness_constant = 0.675
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
