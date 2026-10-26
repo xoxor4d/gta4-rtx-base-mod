@@ -1097,19 +1097,6 @@ over "RootNode"
             }
         }
 
-        over "mat_EFD00DE0C59E1CAE"
-        {
-            over "Shader"
-            {
-                custom float inputs:reflection_roughness_constant = 1
-                custom float inputs:subsurface_measurement_distance = 0.79999995
-                custom color3f inputs:subsurface_single_scattering_albedo = (0.93822396, 0.93821454, 0.93821454)
-                custom color3f inputs:subsurface_transmittance_color = (0.85714287, 0.8108108, 0.8108108)
-                custom asset inputs:subsurface_transmittance_texture = @./assets/alpha_cutouts/textures/EFD00DE0C59E1CAE.dds@
-                custom float inputs:subsurface_volumetric_anisotropy = 0.5445
-            }
-        }
-
         over "mat_19105708891A6399"
         {
             over "Shader"
@@ -1123,6 +1110,22 @@ over "RootNode"
             over "Shader"
             {
                 custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_EFD00DE0C59E1CAE"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/props/vegetation/imposters/EFD00DE0C59E1CAE_albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/props/vegetation/imposters/EFD00DE0C59E1CAE_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/props/vegetation/imposters/EFD00DE0C59E1CAE_rough.r.rtex.dds@
+                custom float inputs:subsurface_measurement_distance = 0.88
+                custom color3f inputs:subsurface_single_scattering_albedo = (0.81467134, 0.8146718, 0.81466365)
+                custom color3f inputs:subsurface_transmittance_color = (1, 0.99999857, 0.99999)
+                custom asset inputs:subsurface_transmittance_texture = @./assets/props/vegetation/imposters/EFD00DE0C59E1CAE_albedo.a.rtex.dds@
+                custom float inputs:subsurface_volumetric_anisotropy = 0.8514
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
     }
@@ -2189,102 +2192,6 @@ over "RootNode"
             }
         }
 
-        over "mesh_11515EDAB55A1408"
-        {
-            over "ref_d5701cd2ca6e4d2ba76aabf4321ba88d"
-            {
-                over "XForms"
-                {
-                    over "cutout_11515EDAB55A1408"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:metallic_constant = 0
-                                    custom float inputs:reflection_roughness_constant = 1
-                                    custom color3f inputs:subsurface_single_scattering_albedo = (1, 0.99999, 0.99999)
-                                    custom color3f inputs:subsurface_transmittance_color = (1, 0.99999, 0.99999)
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_C22515BBD610EEE5"
-        {
-            over "ref_62945d1538824e0b81b1280fabce8dee"
-            {
-                over "XForms"
-                {
-                    over "cutout_C22515BBD610EEE5"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:metallic_constant = 0
-                                    custom float inputs:reflection_roughness_constant = 1
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_01734D306473AD41"
-        {
-            over "ref_38e851c0de5544a59df96a20afb0f681"
-            {
-                over "XForms"
-                {
-                    over "cutout_01734D306473AD41"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:reflection_roughness_constant = 1
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_5141745051E9FB42"
-        {
-            over "ref_7e8bf1639e6147f79c64a23217383348"
-            {
-                over "XForms"
-                {
-                    over "cutout_5141745051E9FB42"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:metallic_constant = 0
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         over "mesh_E501B55196AF5DE2"
         {
             over "ref_1c16bbeea7734457ab982be2f0c995f1"
@@ -2299,62 +2206,8 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom float inputs:metallic_constant = 0
-                                    custom float inputs:reflection_roughness_constant = 1
-                                    custom bool inputs:subsurface_diffusion_profile = 0
-                                    custom float inputs:subsurface_measurement_distance = 1.2
-                                    custom float inputs:subsurface_radius_scale = 2
-                                    custom color3f inputs:subsurface_single_scattering_albedo = (1, 0.9999967, 0.99999)
+                                    custom float inputs:metallic_constant = 0.805
                                     custom asset inputs:subsurface_single_scattering_texture = @@
-                                    custom asset inputs:subsurface_thickness_texture = @@
-                                    custom asset inputs:subsurface_transmittance_texture = @./assets/alpha_cutouts/textures/EFD00DE0C59E1CAE.dds@
-                                    custom float inputs:subsurface_volumetric_anisotropy = 0.45
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_9F2AED117230E007"
-        {
-            over "ref_4841a663cf7240cf8d82cd1257d6f11a"
-            {
-                over "XForms"
-                {
-                    over "cutout_9F2AED117230E007"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:reflection_roughness_constant = 1
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_39DFF30566174D3F"
-        {
-            over "ref_c8e3d9ae52044a31b8634844e1ed6fa1"
-            {
-                over "XForms"
-                {
-                    over "cutout_39DFF30566174D3F"
-                    {
-                        over "Looks"
-                        {
-                            over "AlphaCutoutMaterial"
-                            {
-                                over "Shader"
-                                {
-                                    custom float inputs:reflection_roughness_constant = 1
                                 }
                             }
                         }
@@ -2364,6 +2217,1150 @@ over "RootNode"
         }
 
         over "mesh_254FA552D8F6ABB9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E3CA95939DBB68C6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_11515EDAB55A1408"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_01734D306473AD41"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C22515BBD610EEE5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_91104E4C8CC8A23F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F672D2660831138E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_87A79A7AF6FCEA89"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0290FC2BF4158458"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_805250AE822263C1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_72D20FE653108ECD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CF76CA05F437603C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9724BC5CA3233D3B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_32444859C5A49D1A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C5B12EBB7D4BDFD3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_94C12E5207432407"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5C36121CB12C7FAF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0C39D348114D60A6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_31F8BEBACD4E4915"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3A1FD4C5B54A9FE0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C84FA21D946ED7DF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_06EC419C9782C0A2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7BFF112476A8484E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E09A2EF089AE6983"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5CCC1AE24E6A2A7B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_ECFD75434DF3B877"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_AEB4A2A994F724DB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5198135EB2FD72FF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_EA64BE56D76713B4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D86ECCB5B6A94871"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BA707B934F4438CE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_291243E18BBD485B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_89FE245907B20CDB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7D1C731007B05854"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1C82C2F87393698D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B1F45B19A1186282"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_22728E030A7ECF5E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CC13ACCC4C3EFBA8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DAA1005AD26E5B72"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C142675567C4E1E6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_41A8AAC8F130118D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_15138EDBC942A00C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1E53003541052765"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BBB178A89869D707"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E28B05AD0BEF98B3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BF0ED78C62DCA955"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_759018935091D49B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DA7C6C839BB7B891"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E4C147021EC844A2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0972659FD3BADFC3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_343E9D6BB418A2CD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1A1FA6908876705C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D3DC684A6098AC5E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0FE890BE2A6F64F0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_44FACB2D27D76CE9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_2081562722EB5124"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_15480ED1C0FC1731"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6B159546EC8E38B7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9D53A1EB856E0DED"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8F0C15D793BA981A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_59174FB3732F7ACD"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_93CCF76A14514BDF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_2B348144E5CE338A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DF3FDA48A139D666"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_03577ECD6E0AA3E4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E74B54CD9ADAD541"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9889497442A68D3A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4D81A7B2299014E7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D7D292A0E0D30C41"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F54EB44343035FB6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_809C54B14EFF0B49"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0E110B143A849931"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_FE1B380743E73D93"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6A383210E60EADA1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_86EFBF8F4980E188"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_009E43112CE4E3B2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6D6080234D86871A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_2AD0B4939B322C26"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_12B95B8952422BA7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BDD6863FC1E647EE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_390657BF6D1197BA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A0A585AF0C680048"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7A55A2A1607FDA8A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7B1F6E53E2C0772A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B41B1B91967C03ED"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_196EEE645A08CB3A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_315523F0E00A5228"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_082DCDDB7A34EDAF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D311788F4FEB2E61"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E378640EFE9FF2B6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1A3EAD995CFB75B0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E9C5EF8D89245F97"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5141745051E9FB42"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_39DFF30566174D3F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9A8EF359C2DF97B7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8FC5FCD5FEC752B4"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_989A48655C5E7EE8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E5E5203606D3F728"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A16822C503CABBCE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6A8576F65F5B3B68"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4950110792ADFE24"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5E3F54ACD99994EB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_17D02EE08E13827D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C4AEEF09771760CA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C49E0B240B02ECC1"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_9446331CB3375E91"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5CEA6064F739B0AE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_91C866B8F58A54BE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_EDE9EDEE7DE49627"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_10D8CF9CFC99231A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_515C9BA9E9B4B6B0"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_82375362D95FA697"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F7E0498224FB7F7F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_60A04DA77D44685D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8D4BA9A5E05B3D88"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F4CA7211D4CE79F9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CF9F77BE78954C4E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A7392B094882537E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4CC030858DC6F8FF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F3BE67D90A803596"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F4F5ABF311AD0D80"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_91AF472A2B02E28E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7BC3654716A63571"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F18FF8002B5A53E5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3E196875530BA1FA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_ADA46071CFE23BA3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E74AB87FB5FA2CAC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_76A600DDDCB8EE42"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_1D6125013A5CF4F5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E077C145908699F6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_489129375700695B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0CB2FEA22B33EF4B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E8DF3C53D5878177"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E409D7DC75970C64"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A67B2A5E587D3570"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4A5A6A516C60A00F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D92E22C885BA25ED"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DB5D0B676DC53364"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6953E163D932E0FF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_DA867DB6B29EC124"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_A22F3B1F8FB24D29"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_60946B053065636F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3C59AC5C3B2179E2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C176A0BD0A25DEFA"
         {
             over "mesh"
             {
