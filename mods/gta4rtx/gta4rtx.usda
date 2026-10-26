@@ -3,48 +3,49 @@
     customLayerData = {
         dictionary cameraSettings = {
             dictionary Front = {
-                double3 position = (894058.4229543942, 1765.3799622542301, 17.298270287226842)
+                double3 position = (768296.0672015789, 1750, 69.62000942230225)
                 double radius = 500
-                double3 target = (2276.294983625179, 1765.379962253834, 17.298270287820888)
+                double3 target = (-1800.0000000001164, 1749.999999999658, 69.62000942281523)
             }
             dictionary Perspective = {
-                double3 position = (927.8637958212632, -531.6514431114696, 15.287790285727747)
-                double3 target = (1931.760092030795, -966.7661043226312, -296.660619895285)
+                double3 position = (931.7857454830964, 226.2426346347505, 30.57115612059069)
+                double3 target = (273.54349692001597, 1009.6914239130098, -466.79137699145895)
             }
             dictionary Right = {
-                double3 position = (2276.2949836253874, -890016.7480085146, 17.298270287226842)
+                double3 position = (-1800, -768346.0672015789, 69.62000942230225)
                 double radius = 500
-                double3 target = (2276.2949836253874, 1765.3799622541992, 17.298270287424856)
+                double3 target = (-1800, 1750, 69.62000942247325)
             }
             dictionary Top = {
-                double3 position = (2276.2949836253874, 1765.3799622542301, 891799.4262410561)
+                double3 position = (-1800, 1750, 770165.6872110012)
                 double radius = 500
-                double3 target = (2276.2949836253874, 1765.3799622542301, 17.298270287225023)
+                double3 target = (-1800, 1750, 69.62000942230225)
             }
             string boundCamera = "/OmniverseKit_Persp"
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./comp_world_alpha_cutouts.usda"
+            string authoring_layer = "./comp_effects.usda"
             dictionary locked = {
-                bool "./deps/captures/000_noomm_alpha06.usd" = 1
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
+                bool "./deps/captures/99999_noOmm_blood_part.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
                 bool "./deps/captures/capture02_small.usd" = 1
                 bool "./deps/captures/chrome02.usd" = 1
+                bool "./deps/captures/fix_clover.usd" = 1
                 bool "./deps/captures/nico_safehouse.usd" = 1
             }
         }
         dictionary renderSettings = {
         }
     }
-    endTimeCode = 1
+    endTimeCode = 0
     metersPerUnit = 0.009999999776482582
-    startTimeCode = 0
+    startTimeCode = -1
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/000_noomm_alpha06.usd@
+        @./deps/captures/fix_clover.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"

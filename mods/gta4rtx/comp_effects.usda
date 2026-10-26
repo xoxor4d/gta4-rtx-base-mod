@@ -97,6 +97,63 @@ over "RootNode"
                 custom bool inputs:enable_emission = 1
             }
         }
+
+        over "mat_7A8505B7251B77F5"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/effects/blood/impact_marks/7A8505B7251B77F5_albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/effects/blood/impact_marks/7A8505B7251B77F5_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/effects/blood/impact_marks/7A8505B7251B77F5_rough.r.rtex.dds@
+            }
+        }
+
+        over "mat_B1DFD3A5BD35C76A"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/effects/blood/impact_marks/B1DFD3A5BD35C76A_albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/effects/blood/impact_marks/B1DFD3A5BD35C76A_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/effects/blood/impact_marks/B1DFD3A5BD35C76A_rough.r.rtex.dds@
+            }
+        }
+
+        over "mat_BF83821E621A0929"
+        {
+            over "Shader"
+            {
+                asset inputs:diffuse_texture = @./assets/effects/blood/impact_marks/BF83821E621A0929_albedo.a.rtex.dds@
+                custom asset inputs:normalmap_texture = @./assets/effects/blood/impact_marks/BF83821E621A0929_normal_dx_OTH_Normal.n.rtex.dds@
+                custom asset inputs:reflectionroughness_texture = @./assets/effects/blood/impact_marks/BF83821E621A0929_rough.r.rtex.dds@
+            }
+        }
+
+        over "mat_F50000D978CC8355"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.84999996
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_7FACD618F6160081"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.45
+                custom float inputs:reflection_roughness_constant = 1
+            }
+        }
+
+        over "mat_35059F7DEC69D1A3"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.45
+                custom float inputs:reflection_roughness_constant = 0.965
+            }
+        }
     }
 
     over "meshes"
