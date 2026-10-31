@@ -889,7 +889,7 @@ over "RootNode"
         {
             over "Shader"
             {
-                custom bool inputs:use_legacy_alpha_state = 1
+                custom bool inputs:use_legacy_alpha_state = 0
             }
         }
 
@@ -1059,7 +1059,6 @@ over "RootNode"
             {
                 custom float inputs:metallic_constant = 0.84999996
                 custom float inputs:reflection_roughness_constant = 0.74
-                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
 
@@ -1125,6 +1124,70 @@ over "RootNode"
                 custom color3f inputs:subsurface_transmittance_color = (1, 0.99999857, 0.99999)
                 custom asset inputs:subsurface_transmittance_texture = @./assets/props/vegetation/imposters/EFD00DE0C59E1CAE_albedo.a.rtex.dds@
                 custom float inputs:subsurface_volumetric_anisotropy = 0.8514
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_E390A535FF828461"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_54102B8B66EA728E"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_C3DCE15530017F98"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_03A00184C24C96EE"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_F869732C3A3B1D23"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_532B57ED6A3BA1E8"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_160611AD039F0D3D"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_29DC99CBB1F4BD60"
+        {
+            over "Shader"
+            {
                 custom bool inputs:use_legacy_alpha_state = 1
             }
         }
@@ -3361,6 +3424,246 @@ over "RootNode"
         }
 
         over "mesh_C176A0BD0A25DEFA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4BAD1A6C9A754C3A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8E4CA056B7D05197"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_EF3C215723553AA2"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_0478FF5349289943"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_6F505E3D8A7F9018"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B652EFC94C15013A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_62B8BB223FD37D8A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D3BBD137042CDD6C"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8C7D6C4BF33304EC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_4A4C2BDC6E363D51"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_04A13E0ED2052B10"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_92F2D46E3EC3AD63"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_393B0377C7800A17"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3055B416CA075BC6"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_B86E5F067CF9E146"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_C435C57CFCAE7C8D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E12F6F323C37607A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_CBBA82704D6C0F9B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_361B427C517DA595"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E5767B18140878B5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D77459BFC017DD79"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E19D40899880CFAC"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_87E8CF6F14CEA94E"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_710447C810A293A3"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_364EFB66429E511B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_54B502A56BE2679B"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F61F33F612BD46CB"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_268972221888C3AA"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_53C28822797D3F3D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_78015316E3CA344F"
         {
             over "mesh"
             {

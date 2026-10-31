@@ -3,23 +3,23 @@
     customLayerData = {
         dictionary cameraSettings = {
             dictionary Front = {
-                double3 position = (1070281.3549914553, 250, 155.29520416259766)
+                double3 position = (818739.9287546736, -750, 74.99177742004395)
                 double radius = 500
-                double3 target = (-2250.000000000233, 249.9999999995237, 155.2952041633121)
+                double3 target = (-250.00000000023283, -750.0000000003637, 74.9917774205895)
             }
             dictionary Perspective = {
-                double3 position = (10.67939079119053, 514.7437144720603, 166.046685547015)
-                double3 target = (-674.2985272163817, 112.14033707277753, -648.2997548008727)
+                double3 position = (-1513.3168803826552, -9.31083115090482, 41.426760662803815)
+                double3 target = (-1478.8239439228507, -100.92151225031505, 29.820373244181013)
             }
             dictionary Right = {
-                double3 position = (-2250, -1072281.3549914553, 155.29520416259766)
+                double3 position = (-250, -819739.9287546736, 74.99177742004395)
                 double radius = 500
-                double3 target = (-2250, 250, 155.2952041628358)
+                double3 target = (-250, -750, 74.9917774202258)
             }
             dictionary Top = {
-                double3 position = (-2250, 250, 1072686.650195618)
+                double3 position = (-250, -750, 819064.9205320937)
                 double radius = 500
-                double3 target = (-2250, 250, 155.29520416259766)
+                double3 target = (-250, -750, 74.99177742004395)
             }
             string boundCamera = "/OmniverseKit_Persp"
         }
@@ -28,7 +28,7 @@
             string authoring_layer = "./comp_world.usda"
             dictionary locked = {
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
-                bool "./deps/captures/8_distant_treelod_05.usd" = 1
+                bool "./deps/captures/7_cutout14.usd" = 1
                 bool "./deps/captures/99999_noOmm_blood_part.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
@@ -55,7 +55,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/8_distant_treelod_05.usd@
+        @./deps/captures/7_cutout14.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"

@@ -108,6 +108,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     asset inputs:diffuse_texture = @./assets/wmeshfix/terrain/mesh_409DE4CDB6E5ABE3/textures/BBEB011C8F7FE893_albedo.a.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }

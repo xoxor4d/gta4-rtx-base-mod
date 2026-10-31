@@ -226,6 +226,70 @@ over "RootNode"
                 }
             }
         }
+
+        over "mesh_49E0CF6CE9132B90" (
+            references = None
+        )
+        {
+            def Xform "ref_8b5ae1ef00e94d878548b6aa621c8f98" (
+                prepend references = @./assets/alpha_cutouts/cutout_49E0CF6CE9132B90.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_32EB710F37908B3C" (
+            references = None
+        )
+        {
+            def Xform "ref_802466701fb447c0993412bf04d38dbf" (
+                prepend references = @./assets/alpha_cutouts/cutout_32EB710F37908B3C.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_85950C862FC60F56" (
+            references = None
+        )
+        {
+            def Xform "ref_4edd4182be7b407595b6c8852d033b1f" (
+                prepend references = @./assets/alpha_cutouts/cutout_85950C862FC60F56.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
+
+        over "mesh_476BD4C54B27503A" (
+            references = None
+        )
+        {
+            def Xform "ref_9efe6685d3ab422789b5e43d753fd2e6" (
+                prepend references = @./assets/alpha_cutouts/cutout_476BD4C54B27503A.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+        }
     }
 }
 
