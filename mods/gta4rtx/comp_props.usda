@@ -654,6 +654,96 @@ over "RootNode"
                 custom uniform bool remix_category:alpha_blend_to_cutout = 1
             }
         }
+
+        over "mesh_5B0DDDF5504EE94D" (
+            references = None
+        )
+        {
+            def Xform "ref_cd83c5076f6b4147b18c3fb4b3dbb560" (
+                references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1.5, 1.5, 1.5)
+                    double3 xformOp:translate = (0.2301139612323837, 0.16023679398381319, -0.05903421680329757)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+
+            def Xform "ref_fd2033698e2e4247bde0918b53d72700" (
+                prepend references = @./assets/props/vegetation/small/nature_pack/grass_group04_single.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 13.8921585)
+                    float3 xformOp:scale = (1, 1, 0.7879516)
+                    double3 xformOp:translate = (-1.1513209333351924, 0.16253441628578003, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "plant_21_007"
+                        {
+                            over "Plane_183"
+                            {
+                                float3 xformOp:rotateXYZ = (0, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (0, 0, -0.06941924082421735)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+                    }
+                }
+            }
+
+            def Xform "ref_e2aadb6dfcbe4821904ab5c33640088a" (
+                references = @./assets/props/vegetation/small/nature_pack/single19.usda@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, -18.180323)
+                    float3 xformOp:scale = (0.5, 0.5, 0.5)
+                    double3 xformOp:translate = (-1.1513209333351924, 0.1625344162860074, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "plant_19"
+                        {
+                            over "Icosphere_030"
+                            {
+                                float3 xformOp:rotateXYZ = (0, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (1.432454155292362e-11, -2.319211489520967e-11, -0.0299399702619354)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

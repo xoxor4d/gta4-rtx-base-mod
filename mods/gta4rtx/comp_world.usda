@@ -889,7 +889,7 @@ over "RootNode"
         {
             over "Shader"
             {
-                custom bool inputs:use_legacy_alpha_state = 0
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
 
@@ -3664,6 +3664,14 @@ over "RootNode"
         }
 
         over "mesh_78015316E3CA344F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_16B8317A32CBB772"
         {
             over "mesh"
             {
