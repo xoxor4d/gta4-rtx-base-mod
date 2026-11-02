@@ -1188,7 +1188,32 @@ over "RootNode"
         {
             over "Shader"
             {
+                custom float inputs:reflection_roughness_constant = 1
                 custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_301FC4FDB677E92E"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_E0954F47F173EFFF"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_9718DD1C7871E8F1"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 1
             }
         }
     }
@@ -3672,6 +3697,146 @@ over "RootNode"
         }
 
         over "mesh_16B8317A32CBB772"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_EAFCACB67E47100F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_EC964E37A2730F24"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_76067D7CF08F4617"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3149B8E5F70E7CC8"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_8D380B20EE23D759"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_7DCB8B97B965BBCF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_AE19D4C0A9DE10C9"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_359A043D477B6CD7"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D95BA8894F30BAEF"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3D759DDA6AF91B7D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_F381E475502ECE3A"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_3D82CE514228B718"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D5C1ED78AC21D21E"
+        {
+            over "ref_0b48fb5d5bf64fedb72f6da3a22714b9"
+            {
+                over "XForms"
+                {
+                    over "cutout_D5C1ED78AC21D21E"
+                    {
+                        over "mesh"
+                        {
+                            custom bool remix_category:alpha_blend_to_cutout = 1
+                        }
+
+                        over "Looks"
+                        {
+                            over "AlphaCutoutMaterial"
+                            {
+                                over "Shader"
+                                {
+                                    bool inputs:use_legacy_alpha_state = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_E188D13B6E038215"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_D46C365B0F6855F5"
         {
             over "mesh"
             {

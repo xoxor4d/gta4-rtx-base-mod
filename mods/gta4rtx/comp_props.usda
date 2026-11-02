@@ -470,7 +470,6 @@ over "RootNode"
                 custom float inputs:alpha_test_reference_value = 1
                 custom int inputs:alpha_test_type = 4
                 custom bool inputs:blend_enabled = 0
-                custom bool inputs:use_legacy_alpha_state = 0
             }
         }
 
