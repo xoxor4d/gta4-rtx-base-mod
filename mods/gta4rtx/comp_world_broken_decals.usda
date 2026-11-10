@@ -172,6 +172,39 @@ over "RootNode"
                 custom uniform bool remix_category:decal_Static = 0
             }
         }
+
+        over "mesh_7E723C527286C93D"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+                custom uniform bool remix_category:decal_Static = 1
+            }
+        }
+
+        over "mesh_DBAFE1C2ED5FA822"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_28195C1AC246FD67"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_E7021A47A376A00F"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
     }
 
     over "instances"
@@ -210,6 +243,44 @@ over "RootNode"
             over "Shader"
             {
                 custom bool inputs:use_legacy_alpha_state = 0
+            }
+        }
+
+        over "mat_20E892C1A7BCB0A8"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.73499995
+                custom asset inputs:metallic_texture = @@
+                custom asset inputs:reflectionroughness_texture = @@
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_5B900C3E50252B26"
+        {
+            over "Shader"
+            {
+                custom float inputs:metallic_constant = 0.445
+                custom float inputs:reflection_roughness_constant = 1
+                custom asset inputs:reflectionroughness_texture = @@
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_F48991B429C5A27B"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_F39BDCDF8734BBF3"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
     }

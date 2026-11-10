@@ -796,6 +796,14 @@ over "RootNode"
                 custom bool inputs:use_legacy_alpha_state = 0
             }
         }
+
+        over "mat_89D25A06CADAC98D"
+        {
+            over "Shader"
+            {
+                custom float inputs:reflection_roughness_constant = 0.32
+            }
+        }
     }
 }
 

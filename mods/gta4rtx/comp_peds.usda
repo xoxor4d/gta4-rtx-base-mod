@@ -44,19 +44,11 @@ over "RootNode"
             over "Shader"
             {
                 custom float inputs:alpha_test_reference_value = 0
-                custom int inputs:alpha_test_type = 0
-                custom bool inputs:blend_enabled = 1
-                custom int inputs:blend_type = 4
-                asset inputs:diffuse_texture = @./assets/npc/vlad/vlad_hair_col.a.rtex.dds@
-                custom bool inputs:inverted_blend = 0
+                # custom asset inputs:diffuse_texture = @./assets/npc/vlad/vlad_hair_col.a.rtex.dds@
                 custom asset inputs:normalmap_texture = @./assets/npc/vlad/vlad_hair_000_normal_dx_OTH_Normal.n.rtex.dds@
                 custom float inputs:reflection_roughness_constant = 0.8
                 custom asset inputs:reflectionroughness_texture = @./assets/npc/vlad/vlad_hair_000_roughness.r.rtex.dds@
-                custom bool inputs:subsurface_diffusion_profile = 0
-                custom float inputs:subsurface_radius_scale = 0
-                custom asset inputs:subsurface_radius_texture = @@
-                custom asset inputs:subsurface_transmittance_texture = @@
-                custom bool inputs:use_legacy_alpha_state = 0
+                custom bool inputs:use_legacy_alpha_state = 1
             }
         }
 
@@ -383,8 +375,9 @@ over "RootNode"
         {
             over "mesh"
             {
-                custom uniform bool remix_category:alpha_blend_to_cutout = 0
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
                 custom uniform bool remix_category:decal_Static = 0
+                custom uniform bool remix_category:hair_cards = 1
             }
         }
 

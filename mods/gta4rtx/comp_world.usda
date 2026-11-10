@@ -671,20 +671,6 @@ over "RootNode"
             }
         }
 
-        over "mat_89D25A06CADAC98D" (
-            references = @./materials/AperturePBR_Translucent.usda@</Looks/mat_AperturePBR_Translucent>
-        )
-        {
-            over "Shader"
-            {
-                custom float inputs:ior_constant = 1.7
-                custom bool inputs:thin_walled = 1
-                custom color3f inputs:transmittance_color = (0.976834, 0.9609611, 0.92403215)
-                custom asset inputs:transmittance_texture = @./assets/wtex/glass/89D25A06CADAC98D/89D25_transm_hf.a.rtex.dds@
-                custom bool inputs:use_diffuse_layer = 1
-            }
-        }
-
         over "mat_A9B994011FB3EDDD"
         {
             over "Shader"
