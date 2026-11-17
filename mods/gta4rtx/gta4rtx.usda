@@ -3,32 +3,32 @@
     customLayerData = {
         dictionary cameraSettings = {
             dictionary Front = {
-                double3 position = (92737.22467200295, -400.8798828125001, 0.07169914245605469)
+                double3 position = (750682.2731828053, 1265.3799622542301, 188.6633358001709)
                 double radius = 500
-                double3 target = (664.6360985470965, -400.879882812541, 0.07169914251738735)
+                double3 target = (26.295043229940347, 1265.3799622538968, 188.66333580067092)
             }
             dictionary Perspective = {
-                double3 position = (1188.4531096827393, -675.8746272825808, 16.659436442128094)
-                double3 target = (117.49422539872239, -491.5137467378679, -320.2418643219104)
+                double3 position = (743.0524179504129, 614.106904371823, 20.744904875527112)
+                double3 target = (1560.287678248364, 1405.6226971159617, 29.32579765781805)
             }
             dictionary Right = {
-                double3 position = (664.6360985471182, -92473.46845626834, 0.07169914245605469)
+                double3 position = (26.295043230032206, -749390.598177321, 188.6633358001709)
                 double radius = 500
-                double3 target = (664.6360985471182, -400.8798828125, 0.0716991424764989)
+                double3 target = (26.295043230032206, 1265.3799622541992, 188.66333580033756)
             }
             dictionary Top = {
-                double3 position = (664.6360985471182, -400.8798828125, 92072.6602725983)
+                double3 position = (26.295043230032206, 1265.3799622542301, 750844.6414753754)
                 double radius = 500
-                double3 target = (664.6360985471182, -400.8798828125, 0.07169914245605469)
+                double3 target = (26.295043230032206, 1265.3799622542301, 188.6633358001709)
             }
             string boundCamera = "/OmniverseKit_Persp"
         }
         string lightspeed_layer_type = "workfile"
         dictionary omni_layer = {
-            string authoring_layer = "./comp_world_mesh_fixes.usda"
+            string authoring_layer = "./comp_world.usda"
             dictionary locked = {
                 bool "./deps/captures/0_broker_safehouse_day.usd" = 1
-                bool "./deps/captures/16_bowling_fix.usd" = 1
+                bool "./deps/captures/19_wrong_decal_usage.usd" = 1
                 bool "./deps/captures/99999_noOmm_blood_part.usd" = 1
                 bool "./deps/captures/__asd_proxy_emnico_cutscene.usd" = 1
                 bool "./deps/captures/asd13.usd" = 1
@@ -44,6 +44,7 @@
                 bool "./comp_water.usda" = 0
                 bool "./comp_world.usda" = 0
                 bool "./hq_props.usda" = 0
+                bool "./hq_props_vegetation.usda" = 0
                 bool "./hq_world.usda" = 0
             }
         }
@@ -55,7 +56,7 @@
     startTimeCode = 0
     subLayers = [
         @./mod.usda@,
-        @./deps/captures/16_bowling_fix.usd@
+        @./deps/captures/19_wrong_decal_usage.usd@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"

@@ -1202,6 +1202,14 @@ over "RootNode"
                 custom float inputs:reflection_roughness_constant = 1
             }
         }
+
+        over "mat_7992EE0288330C4F"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 0
+            }
+        }
     }
 
     over "meshes"
@@ -3823,6 +3831,46 @@ over "RootNode"
         }
 
         over "mesh_D46C365B0F6855F5"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_5E61E00D603423CE"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_26D13466E7829424"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:world_ui = 0
+            }
+        }
+
+        over "mesh_43FED8CCDE973D65"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_BE680EECA6408997"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:alpha_blend_to_cutout = 1
+            }
+        }
+
+        over "mesh_003E253B5A23962D"
         {
             over "mesh"
             {

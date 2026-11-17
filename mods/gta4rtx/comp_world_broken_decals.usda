@@ -205,6 +205,14 @@ over "RootNode"
                 custom uniform bool remix_category:alpha_blend_to_cutout = 1
             }
         }
+
+        over "mesh_50F3ABB6038E3271"
+        {
+            over "mesh"
+            {
+                custom uniform bool remix_category:decal_Static = 0
+            }
+        }
     }
 
     over "instances"
@@ -277,6 +285,14 @@ over "RootNode"
         }
 
         over "mat_F39BDCDF8734BBF3"
+        {
+            over "Shader"
+            {
+                custom bool inputs:use_legacy_alpha_state = 1
+            }
+        }
+
+        over "mat_45DA3D87E77C2E15"
         {
             over "Shader"
             {

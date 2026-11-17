@@ -417,7 +417,9 @@ over "RootNode"
             }
         }
 
-        over "mesh_D9104E0FDDF14D7E"
+        over "mesh_D9104E0FDDF14D7E" (
+            references = None
+        )
         {
             def Xform "ref_366a664ced16459f9ef0769a213bf7cd" (
                 prepend references = @./assets/props/chainlink/01/chainlink05_razer_inner.usd@

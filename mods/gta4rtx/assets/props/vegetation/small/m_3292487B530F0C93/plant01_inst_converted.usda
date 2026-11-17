@@ -19,6 +19,7 @@ def Xform "RootNode" (
             over "Shader"
             {
                 color3f inputs:diffuse_color_constant = (0.8, 0.8, 0.8)
+                bool inputs:use_legacy_alpha_state = 0
             }
         }
 
@@ -31,6 +32,7 @@ def Xform "RootNode" (
             over "Shader"
             {
                 color3f inputs:diffuse_color_constant = (0.8, 0.8, 0.8)
+                bool inputs:use_legacy_alpha_state = 0
             }
         }
     }
