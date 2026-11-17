@@ -27,68 +27,6 @@ over "RootNode"
         {
         }
 
-        over "mesh_B6B2B90A8244A9F9" (
-            references = None
-        )
-        {
-            def Xform "ref_9bed70a8a05f4f9b98688dc2a2ed9394" (
-                prepend references = @./assets/vegetation/Beech_01.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, -242.72124)
-                    float3 xformOp:scale = (1, 1, 1)
-                    double3 xformOp:translate = (0, 0, -0.19879931189962718)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "Beech_Leaves"
-                        {
-                            over "Beech_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
-
-                        over "Looks"
-                        {
-                            over "AmericanBeechBark_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-
-                            over "Beech_01_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Beech_Large_Color.a.rtex.dds@
-                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Beech_Large_OTH_Normal.n.rtex.dds@
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech_Large_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech_Large_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
-                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         over "mesh_CB2D970F383EB9DA" (
             references = None
         )
@@ -165,7 +103,7 @@ over "RootNode"
                 over "XForms"
                 {
                     float3 xformOp:rotateXYZ = (0, 0, 0)
-                    float3 xformOp:scale = (1, 1, 1)
+                    float3 xformOp:scale = (2, 2, 2)
                     double3 xformOp:translate = (0, 0, 0)
                     uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
 
@@ -190,6 +128,7 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Branch_Color.a.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -202,7 +141,7 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Bush_Leaf_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Bush_Leaf_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Leaf_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom float inputs:subsurface_measurement_distance = 0.85
                                     custom color3f inputs:subsurface_single_scattering_albedo = (0.5, 0.5, 0.5)
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.12, 0.1, 0.95)
@@ -224,138 +163,10 @@ over "RootNode"
             }
         }
 
-        over "mesh_41718D44B09B8F56" (
-            references = None
-        )
-        {
-            def Xform "ref_5205975748ab4824b44b9b864a0c94a3" (
-                prepend references = @./assets/vegetation/Oak_Brown_01.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 0)
-                    float3 xformOp:scale = (1, 1, 1)
-                    double3 xformOp:translate = (0, 0, 0)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "Oak_Leaves"
-                        {
-                            over "Oak_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
-
-                        over "Looks"
-                        {
-                            over "Oak_Brown_01_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Brown_01_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom color3f inputs:subsurface_single_scattering_albedo = (0.6, 0.1, 0.95)
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak_Brown_01_Subsurface.a.rtex.dds@
-                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-
-                            over "Oak_Bark_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-                        }
-
-                        over "Oak_Brown_01_LOD0"
-                        {
-                            over "Oak_Brown_01_LOD0"
-                            {
-                                uniform bool doubleSided = 0
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         over "mesh_8B55BE76E22A6099" (
             references = None
         )
         {
-        }
-
-        over "mesh_902C139B01EBF855" (
-            references = None
-        )
-        {
-            def Xform "ref_cc6bfbc935f44c55a7e6a7b96da40720" (
-                prepend references = @./assets/vegetation/Sugar_maple_1.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 48.83158)
-                    float3 xformOp:scale = (1, 1, 1)
-                    double3 xformOp:translate = (0, 0, 0.3)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "Maple_Leaves"
-                        {
-                            over "Maple_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
-
-                        over "Looks"
-                        {
-                            over "Maple_Bark_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Maple_Bark_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-
-                            over "Sugar_maple_1_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Sugar_maple_1_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.9
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Sugar_maple_1_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.59679735, 0.09892517, 0.9150579)
-                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-                        }
-                    }
-                }
-            }
         }
 
         over "mesh_BE5972C3C0C4F4F1" (
@@ -696,7 +507,9 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -710,7 +523,7 @@ over "RootNode"
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech_Large_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech_Large_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -784,7 +597,7 @@ over "RootNode"
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/BeechTree_Thin02_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/BeechTree_Thin02_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.10000002, 0.50694984, 0.95)
+                                    custom color3f inputs:subsurface_transmittance_color = (0.34049204, 0.8108108, 0.08139412)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -904,66 +717,6 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_Birch_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        over "mesh_1CCD8AAB976C097B" (
-            references = None
-        )
-        {
-            def Xform "ref_a2409471ab374af0a83ae372f5e1f644" (
-                prepend references = @./assets/vegetation/Oak_02.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 90)
-                    float3 xformOp:scale = (0.58, 0.58, 0.58)
-                    double3 xformOp:translate = (5.684341886080802e-14, -4.547473508864641e-13, -0.2)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "Oak02_Leaves"
-                        {
-                            over "Oak02_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
-
-                        over "Looks"
-                        {
-                            over "Oak02_Bark_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak02_Bark_Roughness.r.rtex.dds@
-                                    custom bool inputs:use_legacy_alpha_state = 0
-                                }
-                            }
-
-                            over "Oak_02_Mat"
-                            {
-                                over "Shader"
-                                {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_02_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak_02_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.66795367, 0.8)
-                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1185,7 +938,9 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1328,7 +1083,9 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1337,10 +1094,25 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmLeaf_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElm_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/AmericanElmLeaf_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Elm/AmericanElm_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.25, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "AmericanElm_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Elm/AmericanElm_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Elm/AmericanElm_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -1400,7 +1172,9 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1409,10 +1183,25 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmLeaf_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElm_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/AmericanElmLeaf_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Elm/AmericanElm_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.25, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "AmericanElm_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Elm/AmericanElm_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Elm/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Elm/AmericanElm_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -1481,58 +1270,31 @@ over "RootNode"
                                 uniform bool doubleSided = 1
                             }
                         }
-                    }
-                }
-            }
-        }
-
-        over "mesh_15E9B484F2ABC254" (
-            references = None
-        )
-        {
-            def Xform "ref_720a67de1f7f47919fa38fb698d8a3d0" (
-                prepend references = @./assets/vegetation/Azalea.usd@
-            )
-            {
-                custom bool IsRemixRef = 1
-                double3 xformOp:rotateXYZ = (0, 0, 0)
-                double3 xformOp:scale = (1, 1, 1)
-                double3 xformOp:translate = (0, 0, 0)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                over "XForms"
-                {
-                    float3 xformOp:rotateXYZ = (0, 0, 90)
-                    float3 xformOp:scale = (0.5, 0.5, 0.5)
-                    double3 xformOp:translate = (1.0231815394945443e-12, 8.185452315956354e-12, 0)
-                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
-
-                    over "World"
-                    {
-                        over "Azalea_Leaves"
-                        {
-                            over "Azalea_Leaves"
-                            {
-                                uniform bool doubleSided = 1
-                            }
-                        }
 
                         over "Looks"
                         {
-                            over "Azalea_Mat"
+                            over "AzaleaBark_Mat"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.85
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
-                            over "FlowerStem_05_Mat"
+                            over "Azalea_Mat"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.9)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1583,9 +1345,13 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
-                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea_OTH_Normal.n.rtex.dds@
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1594,7 +1360,17 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "AzaleaBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.85
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1603,6 +1379,22 @@ over "RootNode"
                         over "Azalea02_leaves"
                         {
                             over "Azalea02_leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "AzaleaLeaves"
+                        {
+                            over "AzaleaLeaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Azalea_Leaves"
+                        {
+                            over "Azalea_Leaves"
                             {
                                 uniform bool doubleSided = 1
                             }
@@ -1735,8 +1527,10 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_01/Pine_Bark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_01/Pine_Bark_OTH_Normal.n.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 1
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_01/Pine_Bark_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1746,10 +1540,12 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     color3f inputs:diffuse_color_constant = (0.2, 0.2, 0.2)
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_01/PineTree_01_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_01/PineTree_01_OTH_Normal.n.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 1
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_01_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.85
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_01_Subsurface.a.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_01/PineTree_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_01/PineTree_01_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.17551915, 0.17551957, 0.7837838)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
@@ -1810,7 +1606,7 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1819,11 +1615,23 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_02_Color.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "AzaleaBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.85
                                 }
                             }
                         }
@@ -1869,7 +1677,6 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1878,10 +1685,23 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "AzaleaBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.8
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1986,8 +1806,10 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_OTH_Normal.n.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 1
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -1997,10 +1819,25 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom float inputs:reflection_roughness_constant = 0.5
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_02_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.25652567, 0.7607351, 0.9227799)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Pine_Leaf_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -2051,8 +1888,10 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_OTH_Normal.n.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 1
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Roughness.r.rtex.dds@
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
@@ -2061,12 +1900,27 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
-                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/PineTree_02_Color.a.rtex.dds@
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Color.a.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 0.5
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_02_Roughness.r.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.32
-                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.3473413, 0.66293365, 0.8996139)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Pine_Leaf_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.9)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
                                     custom bool inputs:use_legacy_alpha_state = 0
                                 }
@@ -2232,6 +2086,732 @@ over "RootNode"
                         over "WeedFlowerPatch"
                         {
                             over "WeedFlowerPatch"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_4323EF43C95F2B16" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_A593F315CECBF505" (
+            references = None
+        )
+        {
+            def Xform "ref_cc53ee7fb0f64e29aa11a9dfc28667fb" (
+                prepend references = @./assets/vegetation/Oak_Brown_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 80)
+                    float3 xformOp:scale = (0.7, 0.7, 0.7)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Oak_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak_Brown_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.5, 0.3, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak02_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_Bark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "Oak_Leaves"
+                        {
+                            over "Oak_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Oak_Brown_01_Leaves"
+                        {
+                            over "Oak_Brown_01_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_26813E442C319026" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_478FF031C578C018" (
+            references = None
+        )
+        {
+            def Xform "ref_c6c22d2ef34d4ea0aa415536bc622cc6" (
+                prepend references = @./assets/vegetation/Oak_Brown_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 94.435)
+                    float3 xformOp:scale = (0.79, 0.79, 0.79)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Oak_Leaves"
+                        {
+                            over "Oak_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Oak_Brown_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.3, 0.25, 0.9)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
+                                }
+                            }
+
+                            over "Oak02_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_Bark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_FFFC4FD08F3E9B4A" (
+            references = None
+        )
+        {
+            def Xform "ref_87ce79b9729b456fa2ba275a8377fee5" (
+                prepend references = @./assets/vegetation/PineTree_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 81.61449)
+                    float3 xformOp:scale = (1.6, 1.6, 1.6)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "PineTree_02_Leaves"
+                        {
+                            over "PineTree_02_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Pine_Bark_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "PineTree_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    color3f inputs:diffuse_color_constant = (0.09889538, 0.35126257, 0.41312742)
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 2.5
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                }
+                            }
+
+                            over "Pine_Leaf_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_B001AEE37D0AFEB3" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_1CCD8AAB976C097B" (
+            references = None
+        )
+        {
+            def Xform "ref_a2409471ab374af0a83ae372f5e1f644" (
+                prepend references = @./assets/vegetation/Oak_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 90)
+                    float3 xformOp:scale = (0.58, 0.58, 0.58)
+                    double3 xformOp:translate = (5.684341886080802e-14, -4.547473508864641e-13, -0.2)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Oak02_Leaves"
+                        {
+                            over "Oak02_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Oak02_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak02_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.5, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_5536F8DC00A8372C" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_B6B2B90A8244A9F9" (
+            references = None
+        )
+        {
+            def Xform "ref_9bed70a8a05f4f9b98688dc2a2ed9394" (
+                prepend references = @./assets/vegetation/Beech_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, -242.72124)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, -0.19879931189962718)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Beech_Leaves"
+                        {
+                            over "Beech_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "AmericanBeechBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Beech_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Beech/Beech_01_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Beech/Beech_01_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Beech/Beech_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech/Beech_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_2C8D2F49265B96EB" (
+            references = None
+        )
+        {
+            def Xform "ref_60181fb0b40b41689401195f18328352" (
+                prepend references = @./assets/vegetation/PineTree_02.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (1.5, 1.5, 1.5)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Pine_Bark_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Pine_Leaf_02_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Color.a.rtex.dds@
+                                    asset inputs:normalmap_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 3
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Pine_02/Pine_Leaf_02_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_2F3CD3859088327B" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_46923660C7F78F7E" (
+            references = None
+        )
+        {
+        }
+
+        over "mesh_41718D44B09B8F56" (
+            references = None
+        )
+        {
+            def Xform "ref_933df3825e9a4eb1aa239deab3293e51" (
+                prepend references = @./assets/vegetation/Oak_Brown_01.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, -40.781902)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Oak_Brown_01_LOD0"
+                        {
+                            over "Oak_Brown_01_LOD0"
+                            {
+                                uniform bool doubleSided = 0
+                            }
+                        }
+
+                        over "Oak_Leaves"
+                        {
+                            over "Oak_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Oak_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak_Brown_01_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak/Oak_1/Oak_Brown_01_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.72702855, 0.16398084, 0.96525097)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Oak02_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Oak/Oak_Bark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak/Oak_Bark_Roughness.r.rtex.dds@
+                                }
+                            }
+                        }
+
+                        over "Oak_Brown_01_Leaves"
+                        {
+                            over "Oak_Brown_01_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_902C139B01EBF855" (
+            references = None
+        )
+        {
+            def Xform "ref_84f887a15d7b4692a7c246ca19c57343" (
+                prepend references = @./assets/vegetation/Sugar_maple_1.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 0)
+                    float3 xformOp:scale = (0.75, 0.75, 0.75)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "Maple_Bark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Sugar_Maple/Maple_Bark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Sugar_Maple/Maple_Bark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Sugar_Maple/Maple_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Sugar_maple_1_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Sugar_Maple/Sugar_maple_1_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Sugar_Maple/Sugar_maple_1_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Sugar_Maple/Sugar_maple_1_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Sugar_Maple/Sugar_maple_1_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "Sugar_maple_1_Leaves"
+                        {
+                            over "Sugar_maple_1_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_15E9B484F2ABC254" (
+            references = None
+        )
+        {
+            def Xform "ref_95a43ea7292e42759e0b458dc9211831" (
+                prepend references = @./assets/vegetation/Azalea.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, -264.08966)
+                    float3 xformOp:scale = (0.44, 0.44, 0.44)
+                    double3 xformOp:translate = (0.08605396139699906, 0.10246760331585847, -1.7763568394002505e-15)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "AzaleaBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.8
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Azalea_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "Azalea_Leaves"
+                        {
+                            over "Azalea_Leaves"
+                            {
+                                uniform bool doubleSided = 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_C85C0951F646C1C2" (
+            references = None
+        )
+        {
+            def Xform "ref_cf0d9fef4a09411fa918ce2ca8f3c98f" (
+                prepend references = @./assets/vegetation/Azalea.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, -89.635414)
+                    float3 xformOp:scale = (0.5, 0.5, 0.5)
+                    double3 xformOp:translate = (2.8421709430404007e-11, 0.14414902378848637, -0.1470432516830762)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "Looks"
+                        {
+                            over "AzaleaBark_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom float inputs:reflection_roughness_constant = 0.8
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+
+                            over "Azalea_Mat"
+                            {
+                                over "Shader"
+                                {
+                                    custom asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea/Azalea_Color.a.rtex.dds@
+                                    custom asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea/AzaleaBark_OTH_Normal.n.rtex.dds@
+                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea/Azalea_Roughness.r.rtex.dds@
+                                    custom float inputs:subsurface_measurement_distance = 0.75
+                                    custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea/Azalea_Subsurface.a.rtex.dds@
+                                    custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 95)
+                                    custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
+                                }
+                            }
+                        }
+
+                        over "Azalea_Leaves"
+                        {
+                            over "Azalea_Leaves"
                             {
                                 uniform bool doubleSided = 1
                             }
